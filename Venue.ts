@@ -7,7 +7,8 @@ export type Show = {
   url: string;
   date: Date | undefined;
   doorTime?: string;
-  showTime: string;
+  showTime?: string;
+  endTime?: string;
   header?: string;
   bands: string[];
   ages?: string;
