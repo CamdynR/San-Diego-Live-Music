@@ -6,35 +6,35 @@ export const casbah: Venue = {
   name: 'Casbah',
   url: 'https://www.casbahmusic.com/calendar/',
   fetchSchedule: async () => {
-    let events: Show[] = [];
+    const events: Show[] = [];
 
-    let response = await fetch(casbah.url);
-    let data = await response.text();
-    let dom = new JSDOM(data);
-    let root = dom.window.document;
+    const response = await fetch(casbah.url);
+    const data = await response.text();
+    const dom = new JSDOM(data);
+    const root = dom.window.document;
     root
       .querySelectorAll('.seetickets-list-event-content-container')
       .forEach((element) => {
-        let venue = element.querySelector('.venue');
+        const venue = element.querySelector('.venue');
         if (venue && venue.textContent !== 'at Casbah') {
           // Grab element references from the event
-          let urlElem = element.querySelector('.event-title a');
-          let dateElem = element.querySelector('.event-date');
-          let doorTimeElem = element.querySelector('.see-doortime');
-          let showTimeElem = element.querySelector('.see-showtime');
-          let bandsElem = element.querySelector('.event-title');
-          let headerElem = element.querySelector('.event-header');
-          let agesElem = element.querySelector('.ages');
-          let priceElem = element.querySelector('.price');
-          let genreElem = element.querySelector('.genre');
+          const urlElem = element.querySelector('.event-title a');
+          const dateElem = element.querySelector('.event-date');
+          const doorTimeElem = element.querySelector('.see-doortime');
+          const showTimeElem = element.querySelector('.see-showtime');
+          const bandsElem = element.querySelector('.event-title');
+          const headerElem = element.querySelector('.event-header');
+          const agesElem = element.querySelector('.ages');
+          const priceElem = element.querySelector('.price');
+          const genreElem = element.querySelector('.genre');
 
           // Format data into proper types
-          let url = urlElem?.getAttribute('href') || casbah.url;
-          let doorTime = doorTimeElem?.textContent || '';
-          let showTime = showTimeElem?.textContent || '';
-          let header = headerElem?.textContent || '';
-          let ages = agesElem?.textContent || '';
-          let genre = genreElem?.textContent || '';
+          const url = urlElem?.getAttribute('href') || casbah.url;
+          const doorTime = doorTimeElem?.textContent || '';
+          const showTime = showTimeElem?.textContent || '';
+          const header = headerElem?.textContent || '';
+          const ages = agesElem?.textContent || '';
+          const genre = genreElem?.textContent || '';
 
           let date: Date | undefined;
           if (dateElem) {
