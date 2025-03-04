@@ -21,7 +21,7 @@ export interface Venue {
   url: string;
   ages: 'all-ages' | '18+' | '21+';
   type: 'bar' | 'club' | 'amphitheater' | 'hotel lounge';
-  capacity: 'under 100' | 'up to 500' | 'up to 1000' | 'over 1000';
+  capacity: number;
   setting: 'indoors' | 'outdoors';
   alcohol: 'beer & wine' | 'full bar' | 'no alcohol';
   food: 'snacks' | 'full menu' | 'no food';
