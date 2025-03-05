@@ -1,9 +1,0 @@
-{
-  "imports": {
-    "@types/jsdom": "npm:@types/jsdom@^21.1.7",
-    "jsdom": "npm:jsdom@^26.0.0"
-  },
-  "tasks": {
-    "build": "deno run --allow-all script.ts"
-  }
-}
