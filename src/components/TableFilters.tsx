@@ -1,21 +1,39 @@
+// TableFilters.tsx
+
+// Components
+import VenueFilters from './VenueFilters.tsx';
+import PriceFilter from './PriceFilter.tsx';
+// Types
 import { CacheType } from '../../utilities/retriever.ts';
-import { useState } from 'react';
+import { VenueName } from '../../utilities/Venue.ts';
 
-function TableFilters({ shows }: { shows: CacheType }) {
-  const [venue, setVenue] = useState('all');
-
+function TableFilters({
+  shows,
+  venuesState,
+  priceState
+}: {
+  shows: CacheType;
+  venuesState: {
+    venues: VenueName[];
+    setVenues: (venues: VenueName[]) => void;
+  };
+  priceState: {
+    price: [number, number];
+    setPrice: (price: [number, number]) => void;
+  };
+}) {
   return (
     <>
       <form>
-        <label>
-          Venue:
-          <select onChange={(e) => setVenue(e.target.value)}>
-            <option value="all">All</option>
-            {Object.keys(shows).map((venue) => (
-              <option value={venue}>{venue}</option>
-            ))}
-          </select>
-        </label>
+        <p>Filters</p>
+        <details>
+          <summary>Venues</summary>
+          <VenueFilters shows={shows} venuesState={venuesState}></VenueFilters>
+        </details>
+        <details>
+          <summary>Price</summary>
+          <PriceFilter priceState={priceState}></PriceFilter>
+        </details>
       </form>
     </>
   );
