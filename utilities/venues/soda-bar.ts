@@ -6,7 +6,7 @@ const X_API_KEY = '7eKoPj5BJI5D83snVEQ9S5uHj4SO9j07aw5qh3VR';
 
 export const sodaBar: Venue = {
   name: 'Soda Bar',
-  url: `https://partners-endpoint.dice.fm/api/v2/events?page%5Bsize%5D=24&types=linkout%2Cevent&filter%5Bvenues%5D%5B%5D=brick+by+brick&filter%5Bvenues%5D%5B%5D=kensington+club&filter%5Bvenues%5D%5B%5D=ken+club&filter%5Bvenues%5D%5B%5D=house+of+blues+voodoo+room&filter%5Bvenues%5D%5B%5D=voodoo+room&filter%5Bvenues%5D%5B%5D=house+of+blues&filter%5Bvenues%5D%5B%5D=soda+bar&filter%5Bvenues%5D%5B%5D=soma&filter%5Bvenues%5D%5B%5D=SOMA&filter%5Bvenues%5D%5B%5D=SOMA+San+Diego&filter%5Bvenues%5D%5B%5D=SOMA+Mainstage&filter%5Bvenues%5D%5B%5D=soma+sidestage&filter%5Bvenues%5D%5B%5D=casbah&filter%5Bvenues%5D%5B%5D=the+casbah&filter%5Bvenues%5D%5B%5D=belly+up&filter%5Bvenues%5D%5B%5D=music+box&filter%5Bvenues%5D%5B%5D=observatory+north+park&filter%5Bvenues%5D%5B%5D=the+observatory+north+park&filter%5Bvenues%5D%5B%5D=observatory&filter%5Bvenues%5D%5B%5D=whistle+stop&filter%5Bvenues%5D%5B%5D=che+cafe&filter%5Bvenues%5D%5B%5D=quartyard&filter%5Bvenues%5D%5B%5D=the+merrow&filter%5Bvenues%5D%5B%5D=til-two+club&filter%5Bvenues%5D%5B%5D=til+two+club&filter%5Bvenues%5D%5B%5D=the+loft&filter%5Bvenues%5D%5B%5D=The+Loft+%40+UC+San+Diego&filter%5Bvenues%5D%5B%5D=the+loft+ucsd&filter%5Bvenues%5D%5B%5D=the+sound&filter%5Bvenues%5D%5B%5D=lou+lou%27s&filter%5Bvenues%5D%5B%5D=Lou+Lou%27s+Jungle+Room&filter%5Bpromoters%5D%5B%5D=Big+Soda+LLC+DBA+Soda+Bar`,
+  url: `https://partners-endpoint.dice.fm/api/v2/events?page%5Bsize%5D=24&types=linkout%2Cevent&filter%5Bvenues%5D%5B%5D=soda+bar&filter%5Bpromoters%5D%5B%5D=Big+Soda+LLC+DBA+Soda+Bar`,
   ages: '21+',
   type: 'bar',
   capacity: 200,
@@ -17,20 +17,54 @@ export const sodaBar: Venue = {
 };
 
 async function fetchSchedule(): Promise<Show[]> {
-    const events: Show[] = [];
+  const events: Show[] = [];
 
-    const response = await fetch(sodaBar.url, {
-      headers: {
-        'X-Api-Key': X_API_KEY,
-      },
+  const response = await fetch(sodaBar.url, {
+    headers: {
+      'X-Api-Key': X_API_KEY
+    }
+  });
+
+  let data;
+  try {
+    data = await response.json();
+  } catch (error) {
+    console.error('Failed to fetch schedule for Soda Bar:', error);
+  }
+
+  data = data?.data;
+  if (!Array.isArray(data) || data.length == 0) return events;
+
+  data.forEach((event) => {
+    // Ignore everything that's not at the Soda Bar
+    if (event.venue != 'Soda Bar') return;
+    events.push({
+      url: event.url ?? '',
+      date: new Date(event.date ?? 0),
+      doorTime: new Date(event.date ?? 0).toLocaleTimeString(undefined, {
+        hour: 'numeric',
+        minute: '2-digit'
+      }),
+      showTime: '',
+      endTime: '',
+      header: '',
+      bands: event.name?.split(', ') ?? [],
+      ages: '21+',
+      price: [
+        (event.ticket_types?.[0]?.price?.face_value ?? 0) / 100,
+        (event.ticket_types?.[0]?.price?.total ?? 0) / 100
+      ],
+      genre:
+        event.genre_tags
+          ?.map((g: string) => {
+            const str = g.split(':').pop() ?? '';
+            return str[0].toUpperCase() + str.slice(1);
+          })
+          .join(' / ') ?? '',
+      description: event.description ?? '',
+      soldOut: event.sold_out ?? false
     });
-    const data = await response.json();
-    if (!Array.isArray(data) || data.length == 0) return events;
+  });
 
-    data.forEach((event) => {
-      console.log(event);
-      // TODO
-    });
-
-    return events;
+  return events;
 }

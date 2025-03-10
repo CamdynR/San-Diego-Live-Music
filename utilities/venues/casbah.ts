@@ -15,7 +15,7 @@ export const casbah: Venue = {
 };
 
 async function fetchSchedule(): Promise<Show[]> {
-  const events: Show[] = [];
+  let events: Show[] = [];
 
   const response = await fetch(casbah.url);
   const data = await response.text();
@@ -23,9 +23,9 @@ async function fetchSchedule(): Promise<Show[]> {
   const root = dom.window.document;
   root
     .querySelectorAll('.seetickets-list-event-content-container')
-    .forEach((element) => {
+    .forEach((element: HTMLElement) => {
       const venue = element.querySelector('.venue');
-      if (venue && venue.textContent !== 'at Casbah') {
+      if (venue && venue.textContent === 'at Casbah') {
         // Grab element references from the event
         const urlElem = element.querySelector('.event-title a');
         const dateElem = element.querySelector('.event-date');
@@ -45,7 +45,7 @@ async function fetchSchedule(): Promise<Show[]> {
         const ages = agesElem?.textContent || '';
         const genre = genreElem?.textContent || '';
 
-        let date: Date | undefined;
+        let date: Date;
         if (dateElem) {
           const CURR_YEAR = new Date().getFullYear();
           // Parse the date string without a year
@@ -55,13 +55,14 @@ async function fetchSchedule(): Promise<Show[]> {
           if (date.getMonth() < currentMonth) {
             date.setFullYear(CURR_YEAR + 1);
           }
+        } else {
+          date = new Date(0);
         }
 
         let bands: string[] = [];
         if (bandsElem) {
           bands =
-            bandsElem?.textContent?.split(',').map((band) => band.trim()) ||
-            [];
+            bandsElem?.textContent?.split(',').map((band) => band.trim()) || [];
         }
 
         let price: number | [number, number] = 0;
@@ -69,26 +70,37 @@ async function fetchSchedule(): Promise<Show[]> {
           let priceStr: string = priceElem.textContent ?? '';
           priceStr = priceStr?.replaceAll('$', '');
           if (priceStr.includes('-')) {
-            let priceArr = priceStr.split('-');
+            const priceArr = priceStr.split('-');
             price = [Number(priceArr[0]), Number(priceArr[1])];
           } else {
             price = Number(priceStr);
           }
         }
 
+        // TODO: Check if the event is sold out
+        const soldOut = false;
+
+        // TODO: Get the event description
+        const description = '';
+
         events.push({
           url,
           date,
           doorTime,
           showTime,
+          endTime: '',
           header,
           bands,
           ages,
           price,
           genre,
+          description,
+          soldOut
         });
       }
     });
+
+  events = [...new Map(events.map((obj) => [obj.url, obj])).values()];
 
   return events;
 }

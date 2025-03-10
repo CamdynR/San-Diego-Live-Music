@@ -10,7 +10,7 @@ import { casbah } from './venues/casbah.ts';
 // import { houseOfBlues } from './venues/house-of-blues.ts';
 // import { humphreys } from './venues/humphreys.ts';
 // import { kensingtonClub } from './venues/kensington-club.ts';
-// import { lousLous } from './venues/lous-lous.ts';
+// import { louLous } from './venues/lou-lous.ts';
 // import { musicBox } from './venues/music-box.ts';
 // import { northIsland } from './venues/north-island.ts';
 // import { nova } from './venues/nova.ts';
@@ -18,7 +18,7 @@ import { casbah } from './venues/casbah.ts';
 // import { petcoPark } from './venues/petco-park.ts';
 // import { quartyard } from './venues/quartyard.ts';
 // import { radyShell } from './venues/rady-shell.ts';
-// import { sodaBar } from './venues/soda-bar.ts';
+import { sodaBar } from './venues/soda-bar.ts';
 // import { soma } from './venues/soma.ts';
 // import { theLoft } from './venues/the-loft.ts';
 // import { theSound } from './venues/the-sound.ts';
@@ -30,19 +30,47 @@ export const { JSDOM } = jsdom;
 
 export type Show = {
   url: string;
-  date: Date | undefined;
-  doorTime?: string;
-  showTime?: string;
-  endTime?: string;
-  header?: string;
+  date: Date;
+  doorTime: string;
+  showTime: string;
+  endTime: string;
+  header: string;
   bands: string[];
-  ages?: string;
+  ages: string;
   price: number | [number, number];
-  genre?: string;
+  genre: string;
+  description: string;
+  soldOut: boolean;
 };
 
+export type VenueName =
+  // | 'Belly Up'
+  // | 'Brick by Brick'
+  // | 'Cal Coast Credit Union Open Air Theatre'
+  | 'Casbah'
+  // | 'Che Cafe'
+  // | 'EQ'
+  // | 'House of Blues'
+  // | 'Humphreys Concerts by the Bay'
+  // | 'Kensington Club'
+  // | "Lou Lou's Jungle Room"
+  // | 'Music Box'
+  // | 'North Island Credit Union Amphitheatre'
+  // | 'NOVA'
+  // | 'The Observatory North Park'
+  // | 'Petco Park'
+  // | 'Quartyard'
+  // | 'Rady Shell at Jacobs Park'
+  | 'Soda Bar';
+// | 'SOMA'
+// | 'The Loft'
+// | 'The Sound'
+// | 'Til-Two Club'
+// | 'Tower Bar'
+// | 'Whistle Stop';
+
 export interface Venue {
-  name: string;
+  name: VenueName;
   url: string;
   ages: 'all-ages' | '18+' | '21+';
   type: 'bar' | 'club' | 'amphitheater' | 'hotel lounge';
@@ -53,43 +81,17 @@ export interface Venue {
   fetchSchedule(): Promise<Show[]>;
 }
 
-export type AllVenues =
-  // | 'bellyUp'
-  // | 'brickByBrick'
-  // | 'calCoast'
-  'casbah';
-// | 'cheCafe'
-// | 'eq'
-// | 'houseOfBlues'
-// | 'humphreys'
-// | 'kensingtonClub'
-// | 'lousLous'
-// | 'musicBox'
-// | 'northIsland'
-// | 'nova'
-// | 'observatory'
-// | 'petcoPark'
-// | 'quartyard'
-// | 'radyShell'
-// | 'sodaBar'
-// | 'soma'
-// | 'theLoft'
-// | 'theSound'
-// | 'tilTwoClub'
-// | 'whistleStop'
-// | 'towerBar';
-
-export const venueData: Record<AllVenues, Venue> = {
+export const venueList: Venue[] = [
   // bellyUp,
   // brickByBrick,
-  // calCoast
-  casbah
+  // calCoast,
+  casbah,
   // cheCafe,
   // eq,
   // houseOfBlues,
   // humphreys,
   // kensingtonClub,
-  // lousLous,
+  // louLous,
   // musicBox,
   // northIsland,
   // nova,
@@ -97,11 +99,11 @@ export const venueData: Record<AllVenues, Venue> = {
   // petcoPark,
   // quartyard,
   // radyShell,
-  // sodaBar,
+  sodaBar
   // soma,
   // theLoft,
   // theSound,
   // tilTwoClub,
   // whistleStop,
   // towerBar,
-};
+];
