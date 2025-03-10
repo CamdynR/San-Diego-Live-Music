@@ -37,7 +37,7 @@ export type Show = {
   header: string;
   bands: string[];
   ages: string;
-  price: number | [number, number];
+  price: number | number[];
   genre: string;
   description: string;
   soldOut: boolean;

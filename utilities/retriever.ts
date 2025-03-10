@@ -22,8 +22,11 @@ const TODAY = new Date().toLocaleDateString('en-CA');
 const cacheExists = existsSync(SHOWS_PATH);
 if (!cacheExists) Deno.writeTextFileSync(SHOWS_PATH, '{}');
 // Read the cache
-type cacheType = Partial<Record<VenueName, { date: string; shows: Show[] }>>;
-const cache: cacheType = JSON.parse(Deno.readTextFileSync(SHOWS_PATH));
+type CacheShowType = Omit<Show, 'date'> & { date: string };
+export type CacheType = Partial<
+  Record<VenueName, { date: string; shows: CacheShowType[] }>
+>;
+const cache: CacheType = JSON.parse(Deno.readTextFileSync(SHOWS_PATH));
 
 /*************************/
 /***** DATA FETCHING *****/
@@ -37,15 +40,20 @@ await Promise.all(
     // Otherwise fetch the schedule
     try {
       // Fetch the new event schedule
-      let newSchedule = await venue.fetchSchedule();
+      const newSchedule = await venue.fetchSchedule();
       // Sort chronologically
-      newSchedule = newSchedule.sort(
-        (a, b) => a.date.getTime() - b.date.getTime()
-      );
+      const newScheduleCacheType: CacheShowType[] = newSchedule
+        .sort((a, b) => a.date.getTime() - b.date.getTime())
+        .map((show): CacheShowType => {
+          return {
+            ...show,
+            date: show.date.toString()
+          };
+        });
       // Assign to cache
       cache[venue.name] = {
         date: TODAY,
-        shows: newSchedule
+        shows: newScheduleCacheType
       };
     } catch (error) {
       console.error(`Failed to fetch schedule for ${venue.name}:`, error);
