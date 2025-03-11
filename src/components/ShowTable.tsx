@@ -11,6 +11,7 @@ function ShowTable({
   filters: {
     venues: VenueName[];
     price: [number, number];
+    dateRange: [Date?, Date?];
   };
 }) {
   return (
@@ -36,17 +37,25 @@ function ShowTable({
             .map(([venue, cache]) => {
               return (
                 cache.shows
-                  // Filter Shows
+                  // Filter Prices
                   .filter((show) => {
                     let price: number;
-                    if (Array.isArray(show.price)) {
-                      price = show.price[1];
-                    } else {
-                      price = show.price;
-                    }
+                    if (Array.isArray(show.price)) price = show.price[1];
+                    else price = show.price;
+
                     return (
                       price >= filters.price[0] && price <= filters.price[1]
                     );
+                  })
+                  // Filter Dates
+                  .filter((show) => {
+                    const range: number[] = filters.dateRange.map((date, i) => {
+                      // If time is in use, get the value
+                      if (date !== undefined) return date.getTime();
+                      else if (i === 0) return 0; // min time
+                      else return Infinity; // max time
+                    });
+                    return show.date >= range[0] && show.date <= range[1];
                   })
                   .map((show) => (
                     <tr key={show.url}>

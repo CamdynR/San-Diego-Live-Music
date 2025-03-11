@@ -21,14 +21,18 @@ function App() {
   // Default to all prices
   const [price, setPrice] = useState<[number, number]>([0, Infinity]);
 
+  // Default to all dates
+  const [dateRange, setDateRange] = useState<[Date?, Date?]>([undefined, undefined]);
+
   return (
     <>
       <TableFilters
         shows={shows}
         venuesState={{ venues, setVenues }}
         priceState={{ price, setPrice }}
+        dateState={{ dateRange, setDateRange }}
       />
-      <ShowTable shows={shows} filters={{ venues, price }} />
+      <ShowTable shows={shows} filters={{ venues, price, dateRange }} />
     </>
   );
 }

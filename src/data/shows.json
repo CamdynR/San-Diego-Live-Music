@@ -1,29 +1,10 @@
 {
   "Casbah": {
-    "date": "2025-03-09",
+    "date": "2025-03-10",
     "shows": [
       {
-        "url": "https://wl.seetickets.us/event/barns-courtney-unplugged/635853?afflky=Casbah",
-        "date": "Sun Mar 09 2025 00:00:00 GMT-0800 (Pacific Standard Time)",
-        "doorTime": "7:30PM",
-        "showTime": "8:30PM",
-        "endTime": "",
-        "header": "Solo Sessions",
-        "bands": [
-          "Barns Courtney Unplugged"
-        ],
-        "ages": "21+",
-        "price": [
-          32.5,
-          37
-        ],
-        "genre": "Indie",
-        "description": "",
-        "soldOut": false
-      },
-      {
         "url": "https://wl.seetickets.us/event/madelline/634522?afflky=Casbah",
-        "date": "Mon Mar 10 2025 00:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1741590000000,
         "doorTime": "7:30PM",
         "showTime": "8:30PM",
         "endTime": "",
@@ -32,17 +13,14 @@
           "Madelline"
         ],
         "ages": "21+",
-        "price": [
-          12,
-          15
-        ],
+        "price": 15,
         "genre": "Pop",
         "description": "",
         "soldOut": false
       },
       {
         "url": "https://wl.seetickets.us/event/cathedral-bells/634883?afflky=Casbah",
-        "date": "Tue Mar 11 2025 00:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1741676400000,
         "doorTime": "7:30PM",
         "showTime": "8:30PM",
         "endTime": "",
@@ -61,7 +39,7 @@
       },
       {
         "url": "https://wl.seetickets.us/event/jenny-dont-and-the-spurs/628091?afflky=Casbah",
-        "date": "Wed Mar 12 2025 00:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1741762800000,
         "doorTime": "7:30PM",
         "showTime": "8:30PM",
         "endTime": "",
@@ -77,7 +55,7 @@
       },
       {
         "url": "https://wl.seetickets.us/event/strokes-vs-interpol/638812?afflky=Casbah",
-        "date": "Thu Mar 13 2025 00:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1741849200000,
         "doorTime": "7:30PM",
         "showTime": "8:30PM",
         "endTime": "",
@@ -93,7 +71,7 @@
       },
       {
         "url": "https://wl.seetickets.us/event/murs/632646?afflky=Casbah",
-        "date": "Fri Mar 14 2025 00:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1741935600000,
         "doorTime": "7:30PM",
         "showTime": "8:30PM",
         "endTime": "",
@@ -112,7 +90,7 @@
       },
       {
         "url": "https://wl.seetickets.us/event/jesse-dayton-the-sleepwalkers/631713?afflky=Casbah",
-        "date": "Sat Mar 15 2025 00:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1742022000000,
         "doorTime": "7:30PM",
         "showTime": "8:30PM",
         "endTime": "",
@@ -129,7 +107,7 @@
       },
       {
         "url": "https://wl.seetickets.us/event/shawn-rohlf-band-rookie-card-ypsitucky/639449?afflky=Casbah",
-        "date": "Mon Mar 17 2025 00:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1742194800000,
         "doorTime": "7:30PM",
         "showTime": "8:30PM",
         "endTime": "",
@@ -147,7 +125,7 @@
       },
       {
         "url": "https://wl.seetickets.us/event/jason-eady/626799?afflky=Casbah",
-        "date": "Tue Mar 18 2025 00:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1742281200000,
         "doorTime": "7:30PM",
         "showTime": "8:30PM",
         "endTime": "",
@@ -166,7 +144,7 @@
       },
       {
         "url": "https://wl.seetickets.us/event/magical-animals-wynona-bleach-euphoric-sun/640234?afflky=Casbah",
-        "date": "Wed Mar 19 2025 00:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1742367600000,
         "doorTime": "7:30PM",
         "showTime": "8:30PM",
         "endTime": "",
@@ -184,7 +162,7 @@
       },
       {
         "url": "https://wl.seetickets.us/event/the-wellermen/627185?afflky=Casbah",
-        "date": "Thu Mar 20 2025 00:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1742454000000,
         "doorTime": "7:30PM",
         "showTime": "8:00PM",
         "endTime": "",
@@ -203,7 +181,7 @@
       },
       {
         "url": "https://wl.seetickets.us/event/emo-nite/638780?afflky=Casbah",
-        "date": "Fri Mar 21 2025 00:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1742540400000,
         "doorTime": "9:00PM",
         "showTime": "9:00PM",
         "endTime": "",
@@ -222,7 +200,7 @@
       },
       {
         "url": "https://wl.seetickets.us/event/club-culture-dance-party/639523?afflky=Casbah",
-        "date": "Sat Mar 22 2025 00:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1742626800000,
         "doorTime": "9:00PM",
         "showTime": "9:00PM",
         "endTime": "",
@@ -238,7 +216,7 @@
       },
       {
         "url": "https://wl.seetickets.us/event/this-is-lorelei/625229?afflky=Casbah",
-        "date": "Sun Mar 23 2025 00:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1742713200000,
         "doorTime": "7:30PM",
         "showTime": "8:30PM",
         "endTime": "",
@@ -257,7 +235,7 @@
       },
       {
         "url": "https://wl.seetickets.us/event/the-texico-club-discount-cadavers-insomnia/640231?afflky=Casbah",
-        "date": "Mon Mar 24 2025 00:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1742799600000,
         "doorTime": "7:30PM",
         "showTime": "8:30PM",
         "endTime": "",
@@ -275,7 +253,7 @@
       },
       {
         "url": "https://wl.seetickets.us/event/sutton-james-and-the-finest-city-band-braxton-hicks-the-film/640042?afflky=Casbah",
-        "date": "Tue Mar 25 2025 00:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1742886000000,
         "doorTime": "7:30PM",
         "showTime": "8:30PM",
         "endTime": "",
@@ -293,7 +271,7 @@
       },
       {
         "url": "https://wl.seetickets.us/event/early-james/623568?afflky=Casbah",
-        "date": "Wed Mar 26 2025 00:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1742972400000,
         "doorTime": "7:30PM",
         "showTime": "8:30PM",
         "endTime": "",
@@ -309,7 +287,7 @@
       },
       {
         "url": "https://wl.seetickets.us/event/zzzahara/630194?afflky=Casbah",
-        "date": "Thu Mar 27 2025 00:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1743058800000,
         "doorTime": "7:30PM",
         "showTime": "8:30PM",
         "endTime": "",
@@ -325,7 +303,7 @@
       },
       {
         "url": "https://wl.seetickets.us/event/laser-disco-drum-orgy/641282?afflky=Casbah",
-        "date": "Fri Mar 28 2025 00:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1743145200000,
         "doorTime": "8:00PM",
         "showTime": "9:00PM",
         "endTime": "",
@@ -341,7 +319,7 @@
       },
       {
         "url": "https://wl.seetickets.us/event/billy-raffoul/633634?afflky=Casbah",
-        "date": "Sat Mar 29 2025 00:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1743231600000,
         "doorTime": "7:30PM",
         "showTime": "8:30PM",
         "endTime": "",
@@ -357,7 +335,7 @@
       },
       {
         "url": "https://wl.seetickets.us/event/swing-kids-negative-blast-agonista/632834?afflky=Casbah",
-        "date": "Sun Mar 30 2025 00:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1743318000000,
         "doorTime": "",
         "showTime": "3:00PM",
         "endTime": "",
@@ -375,7 +353,7 @@
       },
       {
         "url": "https://wl.seetickets.us/event/stephen-day/626956?afflky=Casbah",
-        "date": "Tue Apr 01 2025 00:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1743490800000,
         "doorTime": "7:30PM",
         "showTime": "8:30PM",
         "endTime": "",
@@ -394,7 +372,7 @@
       },
       {
         "url": "https://wl.seetickets.us/event/bria-salmena/633629?afflky=Casbah",
-        "date": "Wed Apr 02 2025 00:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1743577200000,
         "doorTime": "7:30PM",
         "showTime": "8:30PM",
         "endTime": "",
@@ -413,7 +391,7 @@
       },
       {
         "url": "https://wl.seetickets.us/event/cheekface/628113?afflky=Casbah",
-        "date": "Thu Apr 03 2025 00:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1743663600000,
         "doorTime": "7:00PM",
         "showTime": "8:00PM",
         "endTime": "",
@@ -432,7 +410,7 @@
       },
       {
         "url": "https://wl.seetickets.us/event/hovvdy/624585?afflky=Casbah",
-        "date": "Fri Apr 04 2025 00:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1743750000000,
         "doorTime": "7:30PM",
         "showTime": "8:30PM",
         "endTime": "",
@@ -451,7 +429,7 @@
       },
       {
         "url": "https://wl.seetickets.us/event/geographer/622510?afflky=Casbah",
-        "date": "Sat Apr 05 2025 00:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1743836400000,
         "doorTime": "7:30PM",
         "showTime": "8:30PM",
         "endTime": "",
@@ -470,7 +448,7 @@
       },
       {
         "url": "https://wl.seetickets.us/event/annie-dirusso/631049?afflky=Casbah",
-        "date": "Sun Apr 06 2025 00:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1743922800000,
         "doorTime": "7:30PM",
         "showTime": "8:30PM",
         "endTime": "",
@@ -488,8 +466,27 @@
         "soldOut": false
       },
       {
+        "url": "https://wl.seetickets.us/event/magic-sword/630774?afflky=Casbah",
+        "date": 1744009200000,
+        "doorTime": "7:00PM",
+        "showTime": "8:00PM",
+        "endTime": "",
+        "header": "Year of the Sword Tour",
+        "bands": [
+          "Magic Sword"
+        ],
+        "ages": "21+",
+        "price": [
+          27,
+          30
+        ],
+        "genre": "Alternative",
+        "description": "",
+        "soldOut": false
+      },
+      {
         "url": "https://wl.seetickets.us/event/juanita-and-juan/641763?afflky=Casbah",
-        "date": "Wed Apr 09 2025 00:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1744182000000,
         "doorTime": "7:30PM",
         "showTime": "8:30PM",
         "endTime": "",
@@ -508,7 +505,7 @@
       },
       {
         "url": "https://wl.seetickets.us/event/twin-ritual-theylive-the-fazes/641764?afflky=Casbah",
-        "date": "Fri Apr 11 2025 00:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1744354800000,
         "doorTime": "7:30PM",
         "showTime": "8:30PM",
         "endTime": "",
@@ -525,8 +522,26 @@
         "soldOut": false
       },
       {
+        "url": "https://wl.seetickets.us/event/owl-be-damned-doc-hammer-vermin-class/642154?afflky=Casbah",
+        "date": 1745478000000,
+        "doorTime": "7:30PM",
+        "showTime": "8:30PM",
+        "endTime": "",
+        "header": "",
+        "bands": [
+          "Owl Be Damned",
+          "Doc Hammer",
+          "Vermin Class"
+        ],
+        "ages": "21+",
+        "price": 10,
+        "genre": "Punk",
+        "description": "",
+        "soldOut": false
+      },
+      {
         "url": "https://wl.seetickets.us/event/cayucas/640754?afflky=Casbah",
-        "date": "Thu May 01 2025 00:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1746082800000,
         "doorTime": "7:30PM",
         "showTime": "8:30PM",
         "endTime": "",
@@ -545,7 +560,7 @@
       },
       {
         "url": "https://wl.seetickets.us/event/the-minus-5/641004?afflky=Casbah",
-        "date": "Mon Jun 02 2025 00:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1748847600000,
         "doorTime": "7:30PM",
         "showTime": "8:30PM",
         "endTime": "",
@@ -561,7 +576,7 @@
       },
       {
         "url": "https://wl.seetickets.us/event/counterfit/641648?afflky=Casbah",
-        "date": "Fri Aug 01 2025 00:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1754031600000,
         "doorTime": "7:30PM",
         "showTime": "8:30PM",
         "endTime": "",
@@ -580,7 +595,7 @@
       },
       {
         "url": "https://wl.seetickets.us/event/counterfit/641650?afflky=Casbah",
-        "date": "Sat Aug 02 2025 00:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1754118000000,
         "doorTime": "7:30PM",
         "showTime": "8:30PM",
         "endTime": "",
@@ -600,33 +615,11 @@
     ]
   },
   "Soda Bar": {
-    "date": "2025-03-09",
+    "date": "2025-03-10",
     "shows": [
       {
-        "url": "https://link.dice.fm/f480fee58131",
-        "date": "Sun Mar 09 2025 19:30:00 GMT-0700 (Pacific Daylight Time)",
-        "doorTime": "7:30 PM",
-        "showTime": "",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "Coyote",
-          "Obnoxious",
-          "Banish Habitual",
-          "Ric Scales"
-        ],
-        "ages": "21+",
-        "price": [
-          30,
-          35.54
-        ],
-        "genre": "Rap / Hiphop",
-        "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\nKeepingItUnderground.com Presents: Coyote (The Yotes) and DJ Julian Ramirez. Hosted by Kahlee, Also performing: Obnoxious, Banish Habitual, Ric Scales, Sham Blak, Mantis, DJ Syko & DJ RSON. \n\nCoyote will be performing for the first time in San Diego, CA. Make sure to purchase tickets before it sells out, see you at the show!\n\nPresented by KeepingItUnderground.com\n\nThis is a 21+ event",
-        "soldOut": false
-      },
-      {
         "url": "https://link.dice.fm/J738b0ed7bbc",
-        "date": "Mon Mar 10 2025 19:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1741658400000,
         "doorTime": "7:00 PM",
         "showTime": "",
         "endTime": "",
@@ -638,8 +631,8 @@
         ],
         "ages": "21+",
         "price": [
-          7,
-          9.79
+          10,
+          12.88
         ],
         "genre": "",
         "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\nPresented by Soda.\n\nThis is a 21+ event",
@@ -647,7 +640,7 @@
       },
       {
         "url": "https://link.dice.fm/N643697581ee",
-        "date": "Tue Mar 11 2025 19:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1741744800000,
         "doorTime": "7:00 PM",
         "showTime": "",
         "endTime": "",
@@ -669,7 +662,7 @@
       },
       {
         "url": "https://link.dice.fm/Y70e1b0c8d97",
-        "date": "Wed Mar 12 2025 19:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1741831200000,
         "doorTime": "7:00 PM",
         "showTime": "",
         "endTime": "",
@@ -691,7 +684,7 @@
       },
       {
         "url": "https://link.dice.fm/t112f7c982f5",
-        "date": "Thu Mar 13 2025 19:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1741917600000,
         "doorTime": "7:00 PM",
         "showTime": "",
         "endTime": "",
@@ -712,7 +705,7 @@
       },
       {
         "url": "https://link.dice.fm/Ve5a59d3cfa7",
-        "date": "Fri Mar 14 2025 21:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1742011200000,
         "doorTime": "9:00 PM",
         "showTime": "",
         "endTime": "",
@@ -731,7 +724,7 @@
       },
       {
         "url": "https://link.dice.fm/nbe70174deb3",
-        "date": "Sat Mar 15 2025 19:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1742090400000,
         "doorTime": "7:00 PM",
         "showTime": "",
         "endTime": "",
@@ -750,7 +743,7 @@
       },
       {
         "url": "https://link.dice.fm/Tff94e2cad64",
-        "date": "Sun Mar 16 2025 19:30:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1742178600000,
         "doorTime": "7:30 PM",
         "showTime": "",
         "endTime": "",
@@ -771,7 +764,7 @@
       },
       {
         "url": "https://link.dice.fm/xd3b427910d7",
-        "date": "Mon Mar 17 2025 19:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1742263200000,
         "doorTime": "7:00 PM",
         "showTime": "",
         "endTime": "",
@@ -793,7 +786,7 @@
       },
       {
         "url": "https://link.dice.fm/W9b55633a6a3",
-        "date": "Tue Mar 18 2025 19:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1742349600000,
         "doorTime": "7:00 PM",
         "showTime": "",
         "endTime": "",
@@ -814,7 +807,7 @@
       },
       {
         "url": "https://link.dice.fm/J1b3f8365e4a",
-        "date": "Wed Mar 19 2025 19:30:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1742437800000,
         "doorTime": "7:30 PM",
         "showTime": "",
         "endTime": "",
@@ -834,7 +827,7 @@
       },
       {
         "url": "https://link.dice.fm/i949b95c7269",
-        "date": "Thu Mar 20 2025 19:30:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1742524200000,
         "doorTime": "7:30 PM",
         "showTime": "",
         "endTime": "",
@@ -854,7 +847,7 @@
       },
       {
         "url": "https://link.dice.fm/K8c9021b0f7f",
-        "date": "Fri Mar 21 2025 19:30:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1742610600000,
         "doorTime": "7:30 PM",
         "showTime": "",
         "endTime": "",
@@ -875,7 +868,7 @@
       },
       {
         "url": "https://link.dice.fm/mcdd79fed1c6",
-        "date": "Sat Mar 22 2025 21:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1742702400000,
         "doorTime": "9:00 PM",
         "showTime": "",
         "endTime": "",
@@ -894,7 +887,7 @@
       },
       {
         "url": "https://link.dice.fm/u6b8b3119257",
-        "date": "Sun Mar 23 2025 19:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1742781600000,
         "doorTime": "7:00 PM",
         "showTime": "",
         "endTime": "",
@@ -915,7 +908,7 @@
       },
       {
         "url": "https://link.dice.fm/e71c7ce451d1",
-        "date": "Mon Mar 24 2025 19:30:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1742869800000,
         "doorTime": "7:30 PM",
         "showTime": "",
         "endTime": "",
@@ -936,7 +929,7 @@
       },
       {
         "url": "https://link.dice.fm/Ld4a026c2af5",
-        "date": "Tue Mar 25 2025 19:30:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1742956200000,
         "doorTime": "7:30 PM",
         "showTime": "",
         "endTime": "",
@@ -955,7 +948,7 @@
       },
       {
         "url": "https://link.dice.fm/W25891b50b85",
-        "date": "Wed Mar 26 2025 19:30:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1743042600000,
         "doorTime": "7:30 PM",
         "showTime": "",
         "endTime": "",
@@ -976,7 +969,7 @@
       },
       {
         "url": "https://link.dice.fm/xd2f6daddcc9",
-        "date": "Thu Mar 27 2025 19:30:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1743129000000,
         "doorTime": "7:30 PM",
         "showTime": "",
         "endTime": "",
@@ -997,7 +990,7 @@
       },
       {
         "url": "https://link.dice.fm/Ldca76eac558",
-        "date": "Fri Mar 28 2025 19:30:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1743215400000,
         "doorTime": "7:30 PM",
         "showTime": "",
         "endTime": "",
@@ -1017,7 +1010,7 @@
       },
       {
         "url": "https://link.dice.fm/v25fd7b9dfce",
-        "date": "Sat Mar 29 2025 19:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1743300000000,
         "doorTime": "7:00 PM",
         "showTime": "",
         "endTime": "",
@@ -1039,7 +1032,7 @@
       },
       {
         "url": "https://link.dice.fm/A68026480fbb",
-        "date": "Sun Mar 30 2025 19:00:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1743386400000,
         "doorTime": "7:00 PM",
         "showTime": "",
         "endTime": "",
@@ -1059,7 +1052,7 @@
       },
       {
         "url": "https://link.dice.fm/F320c2e8dd45",
-        "date": "Mon Mar 31 2025 19:30:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1743474600000,
         "doorTime": "7:30 PM",
         "showTime": "",
         "endTime": "",
@@ -1080,7 +1073,7 @@
       },
       {
         "url": "https://link.dice.fm/G42e1efb12f8",
-        "date": "Tue Apr 01 2025 19:30:00 GMT-0700 (Pacific Daylight Time)",
+        "date": 1743561000000,
         "doorTime": "7:30 PM",
         "showTime": "",
         "endTime": "",
@@ -1095,6 +1088,25 @@
         ],
         "genre": "",
         "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\nSunbeam Sound Machine is the project of producer and multi-instrumentalist Nick Sowersby. Emerging from Melbourne, Australia in 2013 with the lo-fi double-EP One/Sunbeam Sound Machine, the project quickly found a devoted audience worldwide.\n\n2014’s debut album Wonderer led to international touring and has established itself as a cult classic of the modern psychedelic pop era. Follow-up Goodness Gracious was nominated for the 2019 Australian Music Prize and led to further international touring, while the synth-heavy pop of 2022’s Possum saw the project reach new creative heights. The release of the Soft Signal EP in 2024 traded in the intricately layered sound of previous releases for ‘a stripped-back yet profoundly beautiful sonic experience’ (Happy Mag).\n\nSowersby’s trademark lush production, tip-toeing the line between euphoria and heartbreak, has garnered more than 70 million streams and established a dedicated global fanbase that continues to grow with each release.\n\nPresented by Soda.\n\nThis is a 21+ event",
+        "soldOut": false
+      },
+      {
+        "url": "https://link.dice.fm/kcaf69f71909",
+        "date": 1743645600000,
+        "doorTime": "7:00 PM",
+        "showTime": "",
+        "endTime": "",
+        "header": "",
+        "bands": [
+          "Free Throw: Those Days Are Gone 10 Year Anniversary Tour"
+        ],
+        "ages": "21+",
+        "price": [
+          30,
+          39.66
+        ],
+        "genre": "Poppunk",
+        "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\nPresented by Soda.\n\nThis is a 21+ event",
         "soldOut": false
       }
     ]

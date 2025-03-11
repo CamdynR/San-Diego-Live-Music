@@ -4,7 +4,7 @@
 import { CacheType } from '../../utilities/retriever.ts';
 import { VenueName } from '../../utilities/Venue.ts';
 
-function VenueFilters({
+function VenueFilter({
   shows,
   venuesState
 }: {
@@ -40,4 +40,4 @@ function VenueFilters({
   );
 }
 
-export default VenueFilters;
+export default VenueFilter;

@@ -1,8 +1,9 @@
 // TableFilters.tsx
 
 // Components
-import VenueFilters from './VenueFilters.tsx';
+import VenueFilter from './VenueFilter.tsx';
 import PriceFilter from './PriceFilter.tsx';
+import DateFilter from './DateFilter.tsx';
 // Types
 import { CacheType } from '../../utilities/retriever.ts';
 import { VenueName } from '../../utilities/Venue.ts';
@@ -10,7 +11,8 @@ import { VenueName } from '../../utilities/Venue.ts';
 function TableFilters({
   shows,
   venuesState,
-  priceState
+  priceState,
+  dateState
 }: {
   shows: CacheType;
   venuesState: {
@@ -21,6 +23,10 @@ function TableFilters({
     price: [number, number];
     setPrice: (price: [number, number]) => void;
   };
+  dateState: {
+    dateRange: [Date?, Date?];
+    setDateRange: (range: [Date?, Date?]) => void;
+  };
 }) {
   return (
     <>
@@ -28,11 +34,15 @@ function TableFilters({
         <p>Filters</p>
         <details>
           <summary>Venues</summary>
-          <VenueFilters shows={shows} venuesState={venuesState}></VenueFilters>
+          <VenueFilter shows={shows} venuesState={venuesState}></VenueFilter>
         </details>
         <details>
           <summary>Price</summary>
           <PriceFilter priceState={priceState}></PriceFilter>
+        </details>
+        <details>
+          <summary>Dates</summary>
+          <DateFilter dateState={dateState}></DateFilter>
         </details>
       </form>
     </>

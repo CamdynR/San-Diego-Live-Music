@@ -22,7 +22,7 @@ const TODAY = new Date().toLocaleDateString('en-CA');
 const cacheExists = existsSync(SHOWS_PATH);
 if (!cacheExists) Deno.writeTextFileSync(SHOWS_PATH, '{}');
 // Read the cache
-type CacheShowType = Omit<Show, 'date'> & { date: string };
+type CacheShowType = Omit<Show, 'date'> & { date: number };
 export type CacheType = Partial<
   Record<VenueName, { date: string; shows: CacheShowType[] }>
 >;
@@ -47,7 +47,7 @@ await Promise.all(
         .map((show): CacheShowType => {
           return {
             ...show,
-            date: show.date.toString()
+            date: show.date.getTime()
           };
         });
       // Assign to cache
