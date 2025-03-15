@@ -1,74 +1,7 @@
 {
   "Casbah": {
-    "date": "2025-03-10",
+    "date": "2025-03-15",
     "shows": [
-      {
-        "url": "https://wl.seetickets.us/event/madelline/634522?afflky=Casbah",
-        "date": 1741590000000,
-        "doorTime": "7:30PM",
-        "showTime": "8:30PM",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "Madelline"
-        ],
-        "ages": "21+",
-        "price": 15,
-        "genre": "Pop",
-        "description": "",
-        "soldOut": false
-      },
-      {
-        "url": "https://wl.seetickets.us/event/cathedral-bells/634883?afflky=Casbah",
-        "date": 1741676400000,
-        "doorTime": "7:30PM",
-        "showTime": "8:30PM",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "Cathedral Bells"
-        ],
-        "ages": "21+",
-        "price": [
-          15,
-          18
-        ],
-        "genre": "Alternative",
-        "description": "",
-        "soldOut": false
-      },
-      {
-        "url": "https://wl.seetickets.us/event/jenny-dont-and-the-spurs/628091?afflky=Casbah",
-        "date": 1741762800000,
-        "doorTime": "7:30PM",
-        "showTime": "8:30PM",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "Jenny Don't and the Spurs"
-        ],
-        "ages": "21+",
-        "price": 15,
-        "genre": "Americana",
-        "description": "",
-        "soldOut": false
-      },
-      {
-        "url": "https://wl.seetickets.us/event/strokes-vs-interpol/638812?afflky=Casbah",
-        "date": 1741849200000,
-        "doorTime": "7:30PM",
-        "showTime": "8:30PM",
-        "endTime": "",
-        "header": "Full live band tribute by some of San Diego's best",
-        "bands": [
-          "STROKES VS INTERPOL"
-        ],
-        "ages": "21+",
-        "price": 12,
-        "genre": "Alternative",
-        "description": "",
-        "soldOut": false
-      },
       {
         "url": "https://wl.seetickets.us/event/murs/632646?afflky=Casbah",
         "date": 1741935600000,
@@ -79,11 +12,8 @@
         "bands": [
           "Murs"
         ],
-        "ages": "21+",
-        "price": [
-          20,
-          24
-        ],
+        "ages": "",
+        "price": 0,
         "genre": "Hip Hop/Rap",
         "description": "",
         "soldOut": false
@@ -134,10 +64,7 @@
           "Jason Eady"
         ],
         "ages": "21+",
-        "price": [
-          20,
-          95
-        ],
+        "price": 20,
         "genre": "Country",
         "description": "",
         "soldOut": false
@@ -485,6 +412,25 @@
         "soldOut": false
       },
       {
+        "url": "https://wl.seetickets.us/event/robert-lester-folsom/635010?afflky=Casbah",
+        "date": 1744095600000,
+        "doorTime": "7:00PM",
+        "showTime": "8:00PM",
+        "endTime": "",
+        "header": "2025 Way Out West Tour",
+        "bands": [
+          "Robert Lester Folsom"
+        ],
+        "ages": "21+",
+        "price": [
+          20,
+          25
+        ],
+        "genre": "Folk",
+        "description": "",
+        "soldOut": false
+      },
+      {
         "url": "https://wl.seetickets.us/event/juanita-and-juan/641763?afflky=Casbah",
         "date": 1744182000000,
         "doorTime": "7:30PM",
@@ -504,54 +450,18 @@
         "soldOut": false
       },
       {
-        "url": "https://wl.seetickets.us/event/twin-ritual-theylive-the-fazes/641764?afflky=Casbah",
-        "date": 1744354800000,
+        "url": "https://wl.seetickets.us/event/youth-lagoon/631130?afflky=Casbah",
+        "date": 1744268400000,
         "doorTime": "7:30PM",
         "showTime": "8:30PM",
         "endTime": "",
-        "header": "",
+        "header": "Rarely Do I Dream Tour",
         "bands": [
-          "Twin Ritual",
-          "They/Live",
-          "The Fazes"
-        ],
-        "ages": "21+",
-        "price": 15,
-        "genre": "Post Punk",
-        "description": "",
-        "soldOut": false
-      },
-      {
-        "url": "https://wl.seetickets.us/event/owl-be-damned-doc-hammer-vermin-class/642154?afflky=Casbah",
-        "date": 1745478000000,
-        "doorTime": "7:30PM",
-        "showTime": "8:30PM",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "Owl Be Damned",
-          "Doc Hammer",
-          "Vermin Class"
-        ],
-        "ages": "21+",
-        "price": 10,
-        "genre": "Punk",
-        "description": "",
-        "soldOut": false
-      },
-      {
-        "url": "https://wl.seetickets.us/event/cayucas/640754?afflky=Casbah",
-        "date": 1746082800000,
-        "doorTime": "7:30PM",
-        "showTime": "8:30PM",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "Cayucas"
+          "Youth Lagoon"
         ],
         "ages": "21+",
         "price": [
-          20,
+          22,
           25
         ],
         "genre": "Indie",
@@ -559,34 +469,88 @@
         "soldOut": false
       },
       {
-        "url": "https://wl.seetickets.us/event/the-minus-5/641004?afflky=Casbah",
-        "date": 1748847600000,
+        "url": "https://wl.seetickets.us/event/ethan-tasch/641238?afflky=Casbah",
+        "date": 1747465200000,
         "doorTime": "7:30PM",
         "showTime": "8:30PM",
         "endTime": "",
         "header": "",
         "bands": [
-          "The Minus 5"
+          "Ethan Tasch"
         ],
         "ages": "21+",
-        "price": 30,
+        "price": [
+          17,
+          20
+        ],
+        "genre": "Indie",
+        "description": "",
+        "soldOut": false
+      },
+      {
+        "url": "https://wl.seetickets.us/event/the-detroit-cobras/642468?afflky=Casbah",
+        "date": 1747983600000,
+        "doorTime": "7:30PM",
+        "showTime": "8:30PM",
+        "endTime": "",
+        "header": "",
+        "bands": [
+          "The Detroit Cobras"
+        ],
+        "ages": "21+",
+        "price": 20,
         "genre": "Rock",
         "description": "",
         "soldOut": false
       },
       {
-        "url": "https://wl.seetickets.us/event/counterfit/641648?afflky=Casbah",
-        "date": 1754031600000,
+        "url": "https://wl.seetickets.us/event/devotional-depeche-mode-experience-feat-freddie-morales/642745?afflky=Casbah",
+        "date": 1748070000000,
+        "doorTime": "9:00PM",
+        "showTime": "9:00PM",
+        "endTime": "",
+        "header": "",
+        "bands": [
+          "Devotional - Depeche Mode Experience feat. Freddie Morales"
+        ],
+        "ages": "21+",
+        "price": [
+          15,
+          20
+        ],
+        "genre": "Goth",
+        "description": "",
+        "soldOut": false
+      },
+      {
+        "url": "https://wl.seetickets.us/event/margo-cilker/641089?afflky=Casbah",
+        "date": 1749366000000,
         "doorTime": "7:30PM",
         "showTime": "8:30PM",
         "endTime": "",
         "header": "",
         "bands": [
-          "Counterfit"
+          "Margo Cilker"
+        ],
+        "ages": "21+",
+        "price": 20,
+        "genre": "Indie",
+        "description": "",
+        "soldOut": false
+      },
+      {
+        "url": "https://wl.seetickets.us/event/uncle-lucius/641820?afflky=Casbah",
+        "date": 1750489200000,
+        "doorTime": "7:30PM",
+        "showTime": "8:30PM",
+        "endTime": "",
+        "header": "",
+        "bands": [
+          "Uncle Lucius"
         ],
         "ages": "21+",
         "price": [
-          20,
+          22,
           25
         ],
         "genre": "Alternative",
@@ -594,134 +558,48 @@
         "soldOut": false
       },
       {
-        "url": "https://wl.seetickets.us/event/counterfit/641650?afflky=Casbah",
-        "date": 1754118000000,
+        "url": "https://wl.seetickets.us/event/pegboy/642743?afflky=Casbah",
+        "date": 1751698800000,
         "doorTime": "7:30PM",
         "showTime": "8:30PM",
         "endTime": "",
-        "header": "",
+        "header": "WEst Coast '25 Tour",
         "bands": [
-          "Counterfit"
+          "Pegboy"
         ],
         "ages": "21+",
         "price": [
           20,
           25
         ],
-        "genre": "Alternative",
+        "genre": "Punk",
+        "description": "",
+        "soldOut": false
+      },
+      {
+        "url": "https://wl.seetickets.us/event/oracle-sisters/641844?afflky=Casbah",
+        "date": 1758351600000,
+        "doorTime": "7:30PM",
+        "showTime": "8:30PM",
+        "endTime": "",
+        "header": "",
+        "bands": [
+          "Oracle Sisters"
+        ],
+        "ages": "21+",
+        "price": [
+          22,
+          25
+        ],
+        "genre": "Folk",
         "description": "",
         "soldOut": false
       }
     ]
   },
   "Soda Bar": {
-    "date": "2025-03-10",
+    "date": "2025-03-15",
     "shows": [
-      {
-        "url": "https://link.dice.fm/J738b0ed7bbc",
-        "date": 1741658400000,
-        "doorTime": "7:00 PM",
-        "showTime": "",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "Mariela",
-          "The Dimes",
-          "Poor Thing"
-        ],
-        "ages": "21+",
-        "price": [
-          10,
-          12.88
-        ],
-        "genre": "",
-        "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\nPresented by Soda.\n\nThis is a 21+ event",
-        "soldOut": false
-      },
-      {
-        "url": "https://link.dice.fm/N643697581ee",
-        "date": 1741744800000,
-        "doorTime": "7:00 PM",
-        "showTime": "",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "Counterpunch",
-          "Versus the World",
-          "Taken Days",
-          "Wes Hoffman & Friends "
-        ],
-        "ages": "21+",
-        "price": [
-          15,
-          19.06
-        ],
-        "genre": "",
-        "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\nPresented by Soda.\n\nThis is a 21+ event",
-        "soldOut": false
-      },
-      {
-        "url": "https://link.dice.fm/Y70e1b0c8d97",
-        "date": 1741831200000,
-        "doorTime": "7:00 PM",
-        "showTime": "",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "Intermission",
-          "The Passengers",
-          "Intercom",
-          "Big Blue World"
-        ],
-        "ages": "21+",
-        "price": [
-          10,
-          12.88
-        ],
-        "genre": "",
-        "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\nIntermission \"Power Corrupts\" record release show!\n\nPresented by Soda.\n\nThis is a 21+ event",
-        "soldOut": false
-      },
-      {
-        "url": "https://link.dice.fm/t112f7c982f5",
-        "date": 1741917600000,
-        "doorTime": "7:00 PM",
-        "showTime": "",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "Street Cleaner",
-          "Missing Words",
-          "Teeel"
-        ],
-        "ages": "21+",
-        "price": [
-          15,
-          19.06
-        ],
-        "genre": "",
-        "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\nPresented by Soda.\n\nThis is a 21+ event",
-        "soldOut": false
-      },
-      {
-        "url": "https://link.dice.fm/Ve5a59d3cfa7",
-        "date": 1742011200000,
-        "doorTime": "9:00 PM",
-        "showTime": "",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "Bad Bunny Dance Night"
-        ],
-        "ages": "21+",
-        "price": [
-          20,
-          28.33
-        ],
-        "genre": "Cumbia / Dance / Pop / Electronic",
-        "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\nBad Bunny Dance Night hits San Diego on March 14th! Bad Bunny Dance Night brings the electrifying, genre-defying energy of Bad Bunny alongside artists like J Balvin, Karol G, Rosalía, and Rauw Alejandro. With a mix of reggaeton, Latin trap, electronic and global hits, this night will have you moving to tracks and remixes that embody Bad Bunny’s dynamic flair and unapologetic spirit. Expect a high-energy, immersive atmosphere where the music fuels celebration, self-expression, and connection all night long.\n\nPresented by Soda & Pauz.\n\nThis is a 21+ event",
-        "soldOut": true
-      },
       {
         "url": "https://link.dice.fm/nbe70174deb3",
         "date": 1742090400000,
@@ -734,8 +612,8 @@
         ],
         "ages": "21+",
         "price": [
-          15,
-          19.06
+          20,
+          24.21
         ],
         "genre": "",
         "description": "**\\> This is a 21+ event w/ valid ID at Soda Bar - San Diego.**\n\nDeath Cab for Karaoke is a live band karaoke project based in San Diego, California\n\nThe event requires the audience to front the band. The song list is posted before the show. After doors, people can sign up and are selected randomly to join the band onstage. We usually play pop-punk and emo music, but have been known to dabble in other genres.\n\nWe’re four friends that came together over a shared love of early 00s emo and inability to sing.\n\nhttps://instagram.com/deathcabforkaraoke/\n\nPresented by Soda.\n\nThis is a 21+ event",
@@ -1108,7 +986,112 @@
         "genre": "Poppunk",
         "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\nPresented by Soda.\n\nThis is a 21+ event",
         "soldOut": false
+      },
+      {
+        "url": "https://link.dice.fm/Q7ee9ad8aaa8",
+        "date": 1743733800000,
+        "doorTime": "7:30 PM",
+        "showTime": "",
+        "endTime": "",
+        "header": "",
+        "bands": [
+          "Weatherday",
+          "Fieldrush",
+          "Echinacea"
+        ],
+        "ages": "21+",
+        "price": [
+          20,
+          24.21
+        ],
+        "genre": "Noiserock / Lofi / Experimental / Alternative",
+        "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\nWeatherday is the noise-pop project of the mononymous Swedish artist Sputnik. While they have also found success with their side project, Lola's Pocket PC, it is their cult-acclaimed\n\nalbum Come in that has garnered them a large and dedicated following through its raucous musical universe and serpentine sparklepunk stylings. Often heralded as an achievement of lo-fi bedroom pop tangled with threads of emo and DIY, Come in is better described, in its author’s own words, as a “life goal.”\n\nThe initial spark that ignited the fiery, heated debut from Weatherday originated from Sputnik’s desire to write, perform, and produce a record all on their own, from the ground up. Starting in 2014-2015, their preliminary attempts at what would eventually become Come in first materialized as a shoegaze EP, and then a dream-pop meets chamber-pop LP. Ever the perfectionist though, Sputnik wasn’t satisfied with the results and deleted the releases without a trace, finally deciding to set out in the direction of something more akin to their longtime influences of emo and its various subgenres. After two years of tinkering in this stylistic sweetspot, Sputnik settled on the eleven knotted, maximal tracks that comprise Come in. From the caustic, harsh peaks of “Sleep in while you’re doing your best” to the soothing piano-laden passages of “Embarrassing paintings” and experimental, granular coda of “Water dreamer the same,” the range of Weatherday’s debut is doubtlessly a product of an artist who refuses to compromise a single shred of their vision.\n\nPresented by Soda.\n\nThis is a 21+ event",
+        "soldOut": false
+      },
+      {
+        "url": "https://link.dice.fm/c9468ea4045f",
+        "date": 1743820200000,
+        "doorTime": "7:30 PM",
+        "showTime": "",
+        "endTime": "",
+        "header": "",
+        "bands": [
+          "The Sloppy Boys"
+        ],
+        "ages": "21+",
+        "price": [
+          15,
+          19.06
+        ],
+        "genre": "",
+        "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\nThe Sloppy Boys are a “party rock” band from LA consisting of comedians Mike Hanford, Jeff Dutton and Tim Kalpakis. Prior to forming The Sloppy Boys, all three were writer-performers on the sketch comedy show “The Birthday Boys,” produced by Bob Odenkirk, which aired on IFC.\n\nTogether, the Boys have self-released three albums, Lifelong Vacation, Dancing on the Wind, and Paradiso. Their fourth, Sonic Ranch, was produced by Money Mark (Beastie Boys, Beck) at the legendary Sonic Ranch Studios in Texas. The entire process was captured by director Robert Holguin for his feature-length comedy-rock-doc Blood, Sweat and Beers or How The Sloppy Boys Made an Album on a Farm in West Texas.\n\nThe Sloppy Boys also host a weekly cocktail-making podcast, ranked a Top 3 Comedy Podcast by Vulture. New episodes drop every Friday.\n\nPresented by Soda.\n\nThis is a 21+ event",
+        "soldOut": false
+      },
+      {
+        "url": "https://link.dice.fm/Cbf87a1392d4",
+        "date": 1743906600000,
+        "doorTime": "7:30 PM",
+        "showTime": "",
+        "endTime": "",
+        "header": "",
+        "bands": [
+          "Worn-Tin and Freak Nature Puppets",
+          "shindigs",
+          "Ian Curtis"
+        ],
+        "ages": "21+",
+        "price": [
+          17,
+          21.12
+        ],
+        "genre": "",
+        "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\n**WORN-TIN** – ‘Lo-fi lullaby maker Worn-Tin is just a boy who grew up skating in West LA with his imaginary friend Cool-son,’ as described by Citizine. Worn-Tin, AKA Warner (a friend drunkenly called him “Worn-Tin”) began writing and playing original music during his high school days in Santa Monica, California. He eventually built a backyard studio where he writes, records, and performs every element of his songs using only analog and outboard equipment, taking inspiration from a multitude of artists such as Modest Mouse, R. Stevie Moore and Jessie’s Candy and The Fit Bit.\n\nMuch like Worn-tin’s hyperactive mind, his sounds and lyrics are sprawling: his vocals range from the type of cadence and vulnerability that would make Dongo the ringworm smile, to distorted, psychedelic whaling and synths.\n\nThat same lucid unpredictability has become the staple for his live shows. At a Worn-Tin show, it’s not only about the music - you can expect a performance. from drinking his own urine to getting arrested on stage.\n\nWhen not feverishly writing new music, Worn-Tin can be found skating, gardening or crying in the attic.\n\n**Freak Nature Puppets** – is a collective of artists, performers, and puppeteers from Los Angeles. Their past collaborators and performance partners include Cherry Glazerr, Childish Gambino, Jack Black, and David Liebe Hart.\n\nPresented by Soda.\n\nThis is a 21+ event",
+        "soldOut": false
+      },
+      {
+        "url": "https://link.dice.fm/Wdf987258825",
+        "date": 1743993000000,
+        "doorTime": "7:30 PM",
+        "showTime": "",
+        "endTime": "",
+        "header": "",
+        "bands": [
+          "Jason Joshua",
+          "The Emkays",
+          "City Soul Collective DJs"
+        ],
+        "ages": "21+",
+        "price": [
+          25,
+          29.87
+        ],
+        "genre": "Soul",
+        "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\nBorn and raised in Miami, Florida Jason Joshua , aka La Voz De Oro (The Golden Voice), is a multi instrumentalist, producer & vocalist rising to critical acclaim with his viral hit “La Vida Es Fría”. His Puerto Rican parents with roots in the North and South sides of Chicago, lend to Jason’s diverse and bilingual background and has influenced his soulful and unique musical style. He first broke out with his illustrious debut single “Rose Gold” which gained him a cult following with the lowrider community. Later to release the massively acclaimed debut album “Alegría Y Tristeza” in 2020. In 2021 he debuted singles “Language Of Love” “Se Acabó” “La Vida Es Fría” and “ Muéstrame” hinting a new album. 2023 marked the release of his sophomore follow up album “La Voz De Oro”, whether it’s his energetic live performances or his amazing music, Jason is paving his own lane with his style of Latin soul, r&b, salsa & rock while paying homage to legendary Black and Latino artists that came before him.\n\nIn his new single \"Prisoner Of My Mind \" Jason Joshua shares a heartfelt exploration of personal struggles and emotional reflection. The song combines relatable lyrics with his soulful voice, creating an authentic connection with listeners. \"Prisoner of My Mind\" captures the feeling of being trapped in one’s own thoughts, making it a relatable anthem for anyone dealing with inner challenges.\n\nPresented by Soda.\n\nThis is a 21+ event",
+        "soldOut": false
+      },
+      {
+        "url": "https://link.dice.fm/m56d54fc4d34",
+        "date": 1744077600000,
+        "doorTime": "7:00 PM",
+        "showTime": "",
+        "endTime": "",
+        "header": "",
+        "bands": [
+          "True Loves"
+        ],
+        "ages": "21+",
+        "price": [
+          22,
+          26.78
+        ],
+        "genre": "",
+        "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\nListening to the Seattle-based, original instrumental funk & soul group, True Loves, is like walking down a favorite neighborhood street, slapping five with your friends, checking up with clerks in their stores, and smelling the familiar scents of your most cherished locale. The band is its own block party. What began in 2014 as a jam session between three of the city’s best-drummer David McGraw, bassist Bryant Moore and guitarist Jimmy James- has since blossomed into a global force that features percussionist Iván Galvez, Trombonist Greg Kramer, and saxophonists Gordon Brown and Skerik. Together, the group’s live performances have garnered them much acclaim and millions of streams on YouTube. In 2017, the True Loves recorded their debut instrumental LP, Famous Last Words, which received worldwide adulation, earning them performances at coveted music festivals. In 2018, the group released the “Dapper Derp/Kabuki” 45’ on WeCoast Records followed by 2019’s Colemine Records “Famous Last Words/Mary Pop Poppins” 45 single. The band released their sophomore album “Sunday Afternoon” in 2021, on Color Red Music. 2024 saw the band release their latest single “Good Weed and Red Wine” followed by their second European tour.\n\nPresented by Soda.\n\nThis is a 21+ event",
+        "soldOut": false
       }
     ]
+  },
+  "The Observatory North Park": {
+    "date": "2025-03-15",
+    "shows": []
   }
 }

@@ -14,7 +14,7 @@ import { casbah } from './venues/casbah.ts';
 // import { musicBox } from './venues/music-box.ts';
 // import { northIsland } from './venues/north-island.ts';
 // import { nova } from './venues/nova.ts';
-// import { observatory } from './venues/observatory.ts';
+import { observatory } from './venues/observatory.ts';
 // import { petcoPark } from './venues/petco-park.ts';
 // import { quartyard } from './venues/quartyard.ts';
 // import { radyShell } from './venues/rady-shell.ts';
@@ -57,7 +57,7 @@ export type VenueName =
   // | 'Music Box'
   // | 'North Island Credit Union Amphitheatre'
   // | 'NOVA'
-  // | 'The Observatory North Park'
+  | 'The Observatory North Park'
   // | 'Petco Park'
   // | 'Quartyard'
   // | 'Rady Shell at Jacobs Park'
@@ -72,12 +72,17 @@ export type VenueName =
 export interface Venue {
   name: VenueName;
   url: string;
-  ages: 'all-ages' | '18+' | '21+';
-  type: 'bar' | 'club' | 'amphitheater' | 'hotel lounge';
+  ages: 'all-ages' | '18+' | '21+' | 'event dependent';
+  type: 'bar' | 'club' | 'amphitheater' | 'old theater' | 'hotel lounge';
   capacity: number;
   setting: 'indoors' | 'outdoors';
   alcohol: 'beer & wine' | 'full bar' | 'no alcohol';
-  food: 'snacks' | 'full menu' | 'no food';
+  food:
+    | 'no food'
+    | 'bar snacks'
+    | 'full menu'
+    | 'food truck'
+    | 'attached restaurant';
   fetchSchedule(): Promise<Show[]>;
 }
 
@@ -95,7 +100,7 @@ export const venueList: Venue[] = [
   // musicBox,
   // northIsland,
   // nova,
-  // observatory,
+  observatory,
   // petcoPark,
   // quartyard,
   // radyShell,

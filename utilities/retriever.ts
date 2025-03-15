@@ -4,7 +4,7 @@
 /***** IMPORTS *****/
 /*******************/
 
-import { existsSync } from 'jsr:@std/fs/exists';
+import { existsSync } from 'node:fs';
 import { venueList, VenueName, Show } from './Venue.ts';
 
 /*********************/
