@@ -2,7 +2,7 @@
 
 import jsdom from 'jsdom';
 // import { bellyUp } from './venues/belly-up.ts';
-// import { brickByBrick } from './venues/brick-by-brick.ts';
+import { brickByBrick } from './venues/brick-by-brick.ts';
 // import { calCoast } from './venues/cal-coast.ts';
 import { casbah } from './venues/casbah.ts';
 // import { cheCafe } from './venues/che-cafe.ts';
@@ -45,9 +45,9 @@ export type Show = {
 
 export type VenueName =
   // | 'Belly Up'
-  // | 'Brick by Brick'
+  | 'Brick by Brick'
   // | 'Cal Coast Credit Union Open Air Theatre'
-  | 'Casbah'
+  | 'The Casbah'
   // | 'Che Cafe'
   // | 'EQ'
   // | 'House of Blues'
@@ -71,6 +71,7 @@ export type VenueName =
 
 export interface Venue {
   name: VenueName;
+  address: string;
   url: string;
   ages: 'all-ages' | '18+' | '21+' | 'event dependent';
   type: 'bar' | 'club' | 'amphitheater' | 'old theater' | 'hotel lounge';
@@ -88,7 +89,7 @@ export interface Venue {
 
 export const venueList: Venue[] = [
   // bellyUp,
-  // brickByBrick,
+  brickByBrick,
   // calCoast,
   casbah,
   // cheCafe,

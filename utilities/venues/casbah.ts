@@ -3,7 +3,8 @@
 import { Venue, Show, JSDOM } from '../Venue.ts';
 
 export const casbah: Venue = {
-  name: 'Casbah',
+  name: 'The Casbah',
+  address: '2501 Kettner Blvd, San Diego, CA 92101',
   url: 'https://www.casbahmusic.com/calendar/',
   ages: '21+',
   type: 'bar',
@@ -42,7 +43,7 @@ async function fetchSchedule(): Promise<Show[]> {
         const doorTime = doorTimeElem?.textContent || '';
         const showTime = showTimeElem?.textContent || '';
         const header = headerElem?.textContent || '';
-        const ages = agesElem?.textContent || '';
+        const ages = agesElem?.textContent || '21+';
         const genre = genreElem?.textContent || '';
 
         let date: Date;

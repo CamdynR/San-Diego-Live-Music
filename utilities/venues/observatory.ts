@@ -39,6 +39,7 @@ type ObservatoryEvent = {
 
 export const observatory: Venue = {
   name: 'The Observatory North Park',
+  address: '2891 University Ave, San Diego, CA 92104',
   url: 'https://www.observatorysd.com/shows',
   ages: 'event dependent',
   type: 'old theater',
@@ -72,10 +73,31 @@ async function fetchSchedule(): Promise<Show[]> {
     return parsed;
   });
 
-  // TODO: Finish
-
   // Parse the JSON into the structure that we need
   parsedJSON.forEach((event: ObservatoryEvent) => {
+    // We only care about music events
+    if (event?.['@type'] !== 'MusicEvent') return;
+    // Header and Ages
+    let [band, header] = ['', ''];
+    let ages: Show['ages'] = 'all-ages';
+    if (event?.name !== undefined) {
+      // Grab the ages
+      const eighteenPlus: string[] | null = event.name.match(/\(.*18\+.*\)/g);
+      const twentyOnePlus: string[] | null = event.name.match(/\(.*21\+.*\)/g);
+      if (eighteenPlus !== null) ages = '18+';
+      if (twentyOnePlus !== null) ages = '21+';
+      // Grab the band and header
+      const noAge = event.name.replaceAll(/\(\d{2}\+.*\)/g, '').trim();
+      let split = '';
+      band = noAge;
+      if (band.includes(': ')) split = ': ';
+      else if (band.includes(' - ')) split = ' - ';
+      if (split !== '') {
+        header = band.split(split)[1];
+        band = band.split(split)[0];
+      }
+    }
+
     events.push({
       url: event.url ?? '',
       date: new Date(event.startDate ?? 0),
@@ -85,10 +107,10 @@ async function fetchSchedule(): Promise<Show[]> {
       }),
       showTime: '',
       endTime: '',
-      header: '',
-      bands: [''],
-      ages: '',
-      price: 0,
+      header: header,
+      bands: [band],
+      ages: ages,
+      price: -1,
       genre: '',
       description: '',
       soldOut: false

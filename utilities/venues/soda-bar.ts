@@ -6,6 +6,7 @@ const X_API_KEY = '7eKoPj5BJI5D83snVEQ9S5uHj4SO9j07aw5qh3VR';
 
 export const sodaBar: Venue = {
   name: 'Soda Bar',
+  address: '3615 El Cajon Blvd, San Diego, CA 92104',
   url: `https://partners-endpoint.dice.fm/api/v2/events?page%5Bsize%5D=24&types=linkout%2Cevent&filter%5Bvenues%5D%5B%5D=soda+bar&filter%5Bpromoters%5D%5B%5D=Big+Soda+LLC+DBA+Soda+Bar`,
   ages: '21+',
   type: 'bar',

@@ -1,1097 +1,583 @@
 {
-  "Casbah": {
-    "date": "2025-03-15",
+  "The Observatory North Park": {
+    "date": "2025-03-17",
     "shows": [
       {
-        "url": "https://wl.seetickets.us/event/murs/632646?afflky=Casbah",
-        "date": 1741935600000,
-        "doorTime": "7:30PM",
-        "showTime": "8:30PM",
+        "url": "https://concerts.livenation.com/rupaul-house-of-hidden-meanings-san-diego-california-03-19-2025/event/0B00623FECDD4A11",
+        "date": 1742432400000,
+        "doorTime": "6:00 PM",
+        "showTime": "",
         "endTime": "",
-        "header": "The Last Run",
+        "header": "House of Hidden Meanings",
         "bands": [
-          "Murs"
+          "RUPAUL"
         ],
-        "ages": "",
-        "price": 0,
-        "genre": "Hip Hop/Rap",
+        "ages": "all-ages",
+        "price": -1,
+        "genre": "",
         "description": "",
         "soldOut": false
       },
       {
-        "url": "https://wl.seetickets.us/event/jesse-dayton-the-sleepwalkers/631713?afflky=Casbah",
-        "date": 1742022000000,
-        "doorTime": "7:30PM",
-        "showTime": "8:30PM",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "Jesse Dayton",
-          "The Sleepwalkers"
-        ],
-        "ages": "21+",
-        "price": 20,
-        "genre": "Americana",
-        "description": "",
-        "soldOut": false
-      },
-      {
-        "url": "https://wl.seetickets.us/event/shawn-rohlf-band-rookie-card-ypsitucky/639449?afflky=Casbah",
-        "date": 1742194800000,
-        "doorTime": "7:30PM",
-        "showTime": "8:30PM",
-        "endTime": "",
-        "header": "St. Patrick's Day!",
-        "bands": [
-          "Shawn Rohlf Band",
-          "Rookie Card",
-          "Ypsitucky"
-        ],
-        "ages": "21+",
-        "price": 10,
-        "genre": "Alternative",
-        "description": "",
-        "soldOut": false
-      },
-      {
-        "url": "https://wl.seetickets.us/event/jason-eady/626799?afflky=Casbah",
-        "date": 1742281200000,
-        "doorTime": "7:30PM",
-        "showTime": "8:30PM",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "Jason Eady"
-        ],
-        "ages": "21+",
-        "price": 20,
-        "genre": "Country",
-        "description": "",
-        "soldOut": false
-      },
-      {
-        "url": "https://wl.seetickets.us/event/magical-animals-wynona-bleach-euphoric-sun/640234?afflky=Casbah",
-        "date": 1742367600000,
-        "doorTime": "7:30PM",
-        "showTime": "8:30PM",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "Magical Animals",
-          "Wynona Bleach",
-          "Euphoric Sun"
-        ],
-        "ages": "21+",
-        "price": 10,
-        "genre": "Alternative",
-        "description": "",
-        "soldOut": false
-      },
-      {
-        "url": "https://wl.seetickets.us/event/the-wellermen/627185?afflky=Casbah",
-        "date": 1742454000000,
-        "doorTime": "7:30PM",
-        "showTime": "8:00PM",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "The Wellermen"
-        ],
-        "ages": "21+",
-        "price": [
-          30,
-          35
-        ],
-        "genre": "Folk",
-        "description": "",
-        "soldOut": false
-      },
-      {
-        "url": "https://wl.seetickets.us/event/emo-nite/638780?afflky=Casbah",
-        "date": 1742540400000,
-        "doorTime": "9:00PM",
-        "showTime": "9:00PM",
-        "endTime": "",
-        "header": "Emo Nite at Casbah, San Diego, CA",
-        "bands": [
-          "Emo Nite"
-        ],
-        "ages": "21+",
-        "price": [
-          21,
-          26
-        ],
-        "genre": "Emo",
-        "description": "",
-        "soldOut": false
-      },
-      {
-        "url": "https://wl.seetickets.us/event/club-culture-dance-party/639523?afflky=Casbah",
-        "date": 1742626800000,
-        "doorTime": "9:00PM",
-        "showTime": "9:00PM",
-        "endTime": "",
-        "header": "Dream and Messy Era present",
-        "bands": [
-          "Club Culture Dance Party"
-        ],
-        "ages": "21+",
-        "price": 10,
-        "genre": "DJ/Dance",
-        "description": "",
-        "soldOut": false
-      },
-      {
-        "url": "https://wl.seetickets.us/event/this-is-lorelei/625229?afflky=Casbah",
-        "date": 1742713200000,
-        "doorTime": "7:30PM",
-        "showTime": "8:30PM",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "This Is Lorelei"
-        ],
-        "ages": "21+",
-        "price": [
-          20,
-          25
-        ],
-        "genre": "Alternative",
-        "description": "",
-        "soldOut": false
-      },
-      {
-        "url": "https://wl.seetickets.us/event/the-texico-club-discount-cadavers-insomnia/640231?afflky=Casbah",
-        "date": 1742799600000,
-        "doorTime": "7:30PM",
-        "showTime": "8:30PM",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "The Texico Club",
-          "Discount Cadavers",
-          "Insomnia"
-        ],
-        "ages": "21+",
-        "price": 9,
-        "genre": "Alternative",
-        "description": "",
-        "soldOut": false
-      },
-      {
-        "url": "https://wl.seetickets.us/event/sutton-james-and-the-finest-city-band-braxton-hicks-the-film/640042?afflky=Casbah",
-        "date": 1742886000000,
-        "doorTime": "7:30PM",
-        "showTime": "8:30PM",
-        "endTime": "",
-        "header": "A Farewell Concert for Josh Kmak",
-        "bands": [
-          "Sutton James & The Finest City Band",
-          "Braxton Hicks",
-          "The Film"
-        ],
-        "ages": "21+",
-        "price": 10,
-        "genre": "Alternative",
-        "description": "",
-        "soldOut": false
-      },
-      {
-        "url": "https://wl.seetickets.us/event/early-james/623568?afflky=Casbah",
-        "date": 1742972400000,
-        "doorTime": "7:30PM",
-        "showTime": "8:30PM",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "Early James"
-        ],
-        "ages": "21+",
-        "price": 20,
-        "genre": "Alternative",
-        "description": "",
-        "soldOut": false
-      },
-      {
-        "url": "https://wl.seetickets.us/event/zzzahara/630194?afflky=Casbah",
-        "date": 1743058800000,
-        "doorTime": "7:30PM",
-        "showTime": "8:30PM",
-        "endTime": "",
-        "header": "Spiral Your Way Out Tour 2025",
-        "bands": [
-          "zzzahara"
-        ],
-        "ages": "21+",
-        "price": 20,
-        "genre": "Alternative",
-        "description": "",
-        "soldOut": false
-      },
-      {
-        "url": "https://wl.seetickets.us/event/laser-disco-drum-orgy/641282?afflky=Casbah",
-        "date": 1743145200000,
-        "doorTime": "8:00PM",
-        "showTime": "9:00PM",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "Laser Disco Drum Orgy"
-        ],
-        "ages": "21+",
-        "price": 10,
-        "genre": "DJ/Dance",
-        "description": "",
-        "soldOut": false
-      },
-      {
-        "url": "https://wl.seetickets.us/event/billy-raffoul/633634?afflky=Casbah",
-        "date": 1743231600000,
-        "doorTime": "7:30PM",
-        "showTime": "8:30PM",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "Billy Raffoul"
-        ],
-        "ages": "21+",
-        "price": 20,
-        "genre": "Alternative",
-        "description": "",
-        "soldOut": false
-      },
-      {
-        "url": "https://wl.seetickets.us/event/swing-kids-negative-blast-agonista/632834?afflky=Casbah",
-        "date": 1743318000000,
-        "doorTime": "",
-        "showTime": "3:00PM",
-        "endTime": "",
-        "header": "Grey, Dry, and G'old - Mini Transfronterizo Fest Night #2",
-        "bands": [
-          "Swing Kids",
-          "Negative Blast",
-          "Agonista"
-        ],
-        "ages": "21+",
-        "price": 20,
-        "genre": "Hardcore",
-        "description": "",
-        "soldOut": false
-      },
-      {
-        "url": "https://wl.seetickets.us/event/stephen-day/626956?afflky=Casbah",
-        "date": 1743490800000,
-        "doorTime": "7:30PM",
-        "showTime": "8:30PM",
-        "endTime": "",
-        "header": "The Gold Mine Tour",
-        "bands": [
-          "Stephen Day"
-        ],
-        "ages": "21+",
-        "price": [
-          20,
-          70
-        ],
-        "genre": "Alternative",
-        "description": "",
-        "soldOut": false
-      },
-      {
-        "url": "https://wl.seetickets.us/event/bria-salmena/633629?afflky=Casbah",
-        "date": 1743577200000,
-        "doorTime": "7:30PM",
-        "showTime": "8:30PM",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "Bria Salmena"
-        ],
-        "ages": "21+",
-        "price": [
-          18,
-          20
-        ],
-        "genre": "Alternative",
-        "description": "",
-        "soldOut": false
-      },
-      {
-        "url": "https://wl.seetickets.us/event/cheekface/628113?afflky=Casbah",
-        "date": 1743663600000,
-        "doorTime": "7:00PM",
-        "showTime": "8:00PM",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "Cheekface"
-        ],
-        "ages": "21+",
-        "price": [
-          22,
-          25
-        ],
-        "genre": "Indie",
-        "description": "",
-        "soldOut": false
-      },
-      {
-        "url": "https://wl.seetickets.us/event/hovvdy/624585?afflky=Casbah",
-        "date": 1743750000000,
-        "doorTime": "7:30PM",
-        "showTime": "8:30PM",
-        "endTime": "",
-        "header": "The Hovvdy Tour",
-        "bands": [
-          "Hovvdy"
-        ],
-        "ages": "21+",
-        "price": [
-          23,
-          25
-        ],
-        "genre": "Alternative",
-        "description": "",
-        "soldOut": false
-      },
-      {
-        "url": "https://wl.seetickets.us/event/geographer/622510?afflky=Casbah",
-        "date": 1743836400000,
-        "doorTime": "7:30PM",
-        "showTime": "8:30PM",
-        "endTime": "",
-        "header": "Animal Shapes 15th Anniversary Tour",
-        "bands": [
-          "Geographer"
-        ],
-        "ages": "21+",
-        "price": [
-          25,
-          28
-        ],
-        "genre": "Alternative",
-        "description": "",
-        "soldOut": false
-      },
-      {
-        "url": "https://wl.seetickets.us/event/annie-dirusso/631049?afflky=Casbah",
-        "date": 1743922800000,
-        "doorTime": "7:30PM",
-        "showTime": "8:30PM",
-        "endTime": "",
-        "header": "Back in Town Tour 2025",
-        "bands": [
-          "Annie DiRusso"
-        ],
-        "ages": "21+",
-        "price": [
-          20,
-          100
-        ],
-        "genre": "Indie",
-        "description": "",
-        "soldOut": false
-      },
-      {
-        "url": "https://wl.seetickets.us/event/magic-sword/630774?afflky=Casbah",
-        "date": 1744009200000,
-        "doorTime": "7:00PM",
-        "showTime": "8:00PM",
-        "endTime": "",
-        "header": "Year of the Sword Tour",
-        "bands": [
-          "Magic Sword"
-        ],
-        "ages": "21+",
-        "price": [
-          27,
-          30
-        ],
-        "genre": "Alternative",
-        "description": "",
-        "soldOut": false
-      },
-      {
-        "url": "https://wl.seetickets.us/event/robert-lester-folsom/635010?afflky=Casbah",
-        "date": 1744095600000,
-        "doorTime": "7:00PM",
-        "showTime": "8:00PM",
-        "endTime": "",
-        "header": "2025 Way Out West Tour",
-        "bands": [
-          "Robert Lester Folsom"
-        ],
-        "ages": "21+",
-        "price": [
-          20,
-          25
-        ],
-        "genre": "Folk",
-        "description": "",
-        "soldOut": false
-      },
-      {
-        "url": "https://wl.seetickets.us/event/juanita-and-juan/641763?afflky=Casbah",
-        "date": 1744182000000,
-        "doorTime": "7:30PM",
-        "showTime": "8:30PM",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "Juanita & Juan"
-        ],
-        "ages": "21+",
-        "price": [
-          18,
-          22
-        ],
-        "genre": "Alternative",
-        "description": "",
-        "soldOut": false
-      },
-      {
-        "url": "https://wl.seetickets.us/event/youth-lagoon/631130?afflky=Casbah",
-        "date": 1744268400000,
-        "doorTime": "7:30PM",
-        "showTime": "8:30PM",
-        "endTime": "",
-        "header": "Rarely Do I Dream Tour",
-        "bands": [
-          "Youth Lagoon"
-        ],
-        "ages": "21+",
-        "price": [
-          22,
-          25
-        ],
-        "genre": "Indie",
-        "description": "",
-        "soldOut": false
-      },
-      {
-        "url": "https://wl.seetickets.us/event/ethan-tasch/641238?afflky=Casbah",
-        "date": 1747465200000,
-        "doorTime": "7:30PM",
-        "showTime": "8:30PM",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "Ethan Tasch"
-        ],
-        "ages": "21+",
-        "price": [
-          17,
-          20
-        ],
-        "genre": "Indie",
-        "description": "",
-        "soldOut": false
-      },
-      {
-        "url": "https://wl.seetickets.us/event/the-detroit-cobras/642468?afflky=Casbah",
-        "date": 1747983600000,
-        "doorTime": "7:30PM",
-        "showTime": "8:30PM",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "The Detroit Cobras"
-        ],
-        "ages": "21+",
-        "price": 20,
-        "genre": "Rock",
-        "description": "",
-        "soldOut": false
-      },
-      {
-        "url": "https://wl.seetickets.us/event/devotional-depeche-mode-experience-feat-freddie-morales/642745?afflky=Casbah",
-        "date": 1748070000000,
-        "doorTime": "9:00PM",
-        "showTime": "9:00PM",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "Devotional - Depeche Mode Experience feat. Freddie Morales"
-        ],
-        "ages": "21+",
-        "price": [
-          15,
-          20
-        ],
-        "genre": "Goth",
-        "description": "",
-        "soldOut": false
-      },
-      {
-        "url": "https://wl.seetickets.us/event/margo-cilker/641089?afflky=Casbah",
-        "date": 1749366000000,
-        "doorTime": "7:30PM",
-        "showTime": "8:30PM",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "Margo Cilker"
-        ],
-        "ages": "21+",
-        "price": 20,
-        "genre": "Indie",
-        "description": "",
-        "soldOut": false
-      },
-      {
-        "url": "https://wl.seetickets.us/event/uncle-lucius/641820?afflky=Casbah",
-        "date": 1750489200000,
-        "doorTime": "7:30PM",
-        "showTime": "8:30PM",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "Uncle Lucius"
-        ],
-        "ages": "21+",
-        "price": [
-          22,
-          25
-        ],
-        "genre": "Alternative",
-        "description": "",
-        "soldOut": false
-      },
-      {
-        "url": "https://wl.seetickets.us/event/pegboy/642743?afflky=Casbah",
-        "date": 1751698800000,
-        "doorTime": "7:30PM",
-        "showTime": "8:30PM",
-        "endTime": "",
-        "header": "WEst Coast '25 Tour",
-        "bands": [
-          "Pegboy"
-        ],
-        "ages": "21+",
-        "price": [
-          20,
-          25
-        ],
-        "genre": "Punk",
-        "description": "",
-        "soldOut": false
-      },
-      {
-        "url": "https://wl.seetickets.us/event/oracle-sisters/641844?afflky=Casbah",
-        "date": 1758351600000,
-        "doorTime": "7:30PM",
-        "showTime": "8:30PM",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "Oracle Sisters"
-        ],
-        "ages": "21+",
-        "price": [
-          22,
-          25
-        ],
-        "genre": "Folk",
-        "description": "",
-        "soldOut": false
-      }
-    ]
-  },
-  "Soda Bar": {
-    "date": "2025-03-15",
-    "shows": [
-      {
-        "url": "https://link.dice.fm/nbe70174deb3",
-        "date": 1742090400000,
+        "url": "https://concerts.livenation.com/nettspend-san-diego-california-03-20-2025/event/0B00623BDF562105",
+        "date": 1742522400000,
         "doorTime": "7:00 PM",
         "showTime": "",
         "endTime": "",
         "header": "",
         "bands": [
-          "Death Cab For Karaoke - live band karaoke!"
+          "Nettspend"
         ],
-        "ages": "21+",
-        "price": [
-          20,
-          24.21
-        ],
+        "ages": "all-ages",
+        "price": -1,
         "genre": "",
-        "description": "**\\> This is a 21+ event w/ valid ID at Soda Bar - San Diego.**\n\nDeath Cab for Karaoke is a live band karaoke project based in San Diego, California\n\nThe event requires the audience to front the band. The song list is posted before the show. After doors, people can sign up and are selected randomly to join the band onstage. We usually play pop-punk and emo music, but have been known to dabble in other genres.\n\nWe’re four friends that came together over a shared love of early 00s emo and inability to sing.\n\nhttps://instagram.com/deathcabforkaraoke/\n\nPresented by Soda.\n\nThis is a 21+ event",
+        "description": "",
         "soldOut": false
       },
       {
-        "url": "https://link.dice.fm/Tff94e2cad64",
-        "date": 1742178600000,
-        "doorTime": "7:30 PM",
-        "showTime": "",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "Oh",
-          "Rose with SHUA",
-          "Neutral Shirt"
-        ],
-        "ages": "21+",
-        "price": [
-          15,
-          19.06
-        ],
-        "genre": "Indie / Alternative",
-        "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\nThe Olympia, WA based Oh, Rose has solidified their place in the PNW music scene through powerful, upbeat performances showcasing the emotive and unfiltered voice of front-woman Olivia Rose. Their catalog is both intimate and explosive; since forming in 2014, the band has released two albums and an EP , amassing a catalog that ranges from soft, synth-tinted love songs to full-on, painfully screamed ballads.\n\nThe group’s latest single, Back 2 U, is a pop-forward track following their emotive 2019 release, While My Father Sleeps. In June 2024, the band will celebrate 10 years with the reissue of their first EP , That Do Now See, released via Antiquated Future.\n\nPresented by Soda.\n\nThis is a 21+ event",
-        "soldOut": false
-      },
-      {
-        "url": "https://link.dice.fm/xd3b427910d7",
-        "date": 1742263200000,
-        "doorTime": "7:00 PM",
-        "showTime": "",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "Lake Drive",
-          "POPOFF",
-          "Virginia Crime",
-          "Lost Dakota"
-        ],
-        "ages": "21+",
-        "price": [
-          10,
-          12.88
-        ],
-        "genre": "Rock",
-        "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\nPresented by Soda & CORE Creatives.\n\nThis is a 21+ event",
-        "soldOut": false
-      },
-      {
-        "url": "https://link.dice.fm/W9b55633a6a3",
-        "date": 1742349600000,
-        "doorTime": "7:00 PM",
-        "showTime": "",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "Samer Bakri",
-          "Omo Cloud",
-          "Séamus Scanlan"
-        ],
-        "ages": "21+",
-        "price": [
-          10,
-          12.88
-        ],
-        "genre": "",
-        "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\nPresented by Soda.\n\nThis is a 21+ event",
-        "soldOut": false
-      },
-      {
-        "url": "https://link.dice.fm/J1b3f8365e4a",
-        "date": 1742437800000,
-        "doorTime": "7:30 PM",
-        "showTime": "",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "Mikal Cronin",
-          "Kaz Mirblouk"
-        ],
-        "ages": "21+",
-        "price": [
-          20,
-          24.21
-        ],
-        "genre": "Singersongwriter / Indie / Alternative",
-        "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\nMikal Cronin is a songwriter and multi-instrumentalist from Los Angeles, CA. Since 2011 he has released three full length albums under his own name, and after a 4 year break he’s back with fresh sounds and oh so excited to share them. Since he started making music, he’s been a part of some amazing projects with artists such as Ty Segall, Thee Oh Sees, King Tuff, Shannon & the Clams and many more. He has been playing bass in Ty Segall’s touring band for the past 8 years, who he’s been buds with since high school. Mikal lives in Los Angeles with his cat Ernie.\n\nPresented by Soda.\n\nThis is a 21+ event",
-        "soldOut": false
-      },
-      {
-        "url": "https://link.dice.fm/i949b95c7269",
-        "date": 1742524200000,
-        "doorTime": "7:30 PM",
-        "showTime": "",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "Gary Wilson",
-          "takoda"
-        ],
-        "ages": "21+",
-        "price": [
-          10,
-          12.88
-        ],
-        "genre": "",
-        "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\nGary Wilson is an internationally renowned experimental music composer, recording artist, and performer. As a teenager, Wilson studied composition privately with John Cage, and since his 1977 self- released classic You Think You Really Know Me, he has spent a lifetime building a fervent underground audience around the world. Esteemed artists Beck,Tyler the Creator, Ariel Pink, Questlove, Earl Sweatshirt,Peanut Butter Wolf, Foxygen, andDam Funk have all cited Gary Wilson as a source of inspiration. He is the subject of the 2005 documentary, You Think You Really Know Me: The Gary Wilson Story, and is mentioned by name in Beck’s 1996 classic “Where It’s At”.\n\nIn the summer of 2013, the Metropolitan Museum of Art included Gary in the exhibition PUNK: Chaos to Couture, and the underground legend has graced the pages of The New York Times, The New Yorker, and Record Collector Magazine. Wilson’s music has been featured in an episode of Narcos (2015) as well as during the Golden Globes (2017), and his track “You Were Too Good to Be True” appears as a sample on Earl Sweatshirt’s track “Grief”” (2015). In recent years, Wilson has shared the bill at live performances with Todd Rundgren, Ariel Pink, Foxygen, Colin Caulfield (Diiv), Crush, and Black Lips.\n\nGary Wilson has performed on national TV on both The Tonight Show with Jimmy Fallon and Jimmy Kimmel Live! He continues to diligently compose, record, and release new music, including 2019’s The King of Endicott (Cleopatra Records) and his summer 2019 collaborative album with home recording legend R. Stevie Moore, titled Fake News Trending.\n\nGary’s latest album, A Beautiful Bliss, is set for release on all formats including CD and vinyl on May 24, 2024.\n\nPresented by Soda.\n\nThis is a 21+ event",
-        "soldOut": false
-      },
-      {
-        "url": "https://link.dice.fm/K8c9021b0f7f",
+        "url": "https://concerts.livenation.com/umphreys-mcgee-crusing-altitude-2025-tour-san-diego-california-03-21-2025/event/0B006131ED072DA3",
         "date": 1742610600000,
         "doorTime": "7:30 PM",
         "showTime": "",
         "endTime": "",
-        "header": "",
+        "header": "Crusing Altitude 2025 Tour",
         "bands": [
-          "Oneida",
-          "Kinski",
-          "Terry Gross Band"
+          "Umphrey's McGee"
         ],
-        "ages": "21+",
-        "price": [
-          18,
-          22.15
-        ],
-        "genre": "Rocknroll / Rock / Psychedelica",
-        "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\nA song is a song until it isn’t, until it’s pushed to its limits and beyond to become harder, faster and more dissonant. The music on Oneida’s 17th full-length album, Expensive Air, all started as tightly structured, melodic rock songs then broke open these structures through the instinctual, improvisatory interplay, honed to razor sharpness in two years of live performance. “Success is like laughing in a car gunning carelessly through an ice storm,” says Bobby Matador, “and Expensive Air is how you laugh at yourself as the car spins into the ditch, or a tree. Same trip, but a little closer to the bone.”\n\nPresented by Soda & Casbah.\n\nThis is a 21+ event",
+        "ages": "18+",
+        "price": -1,
+        "genre": "",
+        "description": "",
         "soldOut": false
       },
       {
-        "url": "https://link.dice.fm/mcdd79fed1c6",
-        "date": 1742702400000,
-        "doorTime": "9:00 PM",
+        "url": "https://concerts.livenation.com/imminence-the-return-of-the-black-san-diego-california-03-22-2025/event/0B006142F8123E25",
+        "date": 1742693400000,
+        "doorTime": "6:30 PM",
         "showTime": "",
         "endTime": "",
-        "header": "",
+        "header": "NORTH AMERICA 2025",
         "bands": [
-          "CLUB XCX : A Charli Party"
+          "IMMINENCE THE RETURN OF THE BLACK TOUR"
         ],
-        "ages": "21+",
-        "price": [
-          20,
-          24.21
-        ],
-        "genre": "Dance / Pop",
-        "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\nWhat the Dance presents:\n\nWELCOME TO CLUB XCX 🔥\n\nCALLING ALL SAN DIEGO ANGELS FOR A BRATTY POP NIGHT! 💚\n\nEXPERIENCE A PARTY, GIRL:\n\n🍏 Soda Bar\n\n🏍️ Saturday, March 22\n\n💅 9pm\n\n💃 21+\n\nVROOM VROOM B\\*TCH / TIX @ WHATTHEDANCE.COM 🎟\n\nBlasting the best of Charli xcx, Billie Eilish, Slayyyter, Troye Sivan, Kim Petras, Chappell Roan, Shygirl, Addison Rae, The Dare, Lady Gaga, Kesha, Lorde, Tinashe, Ariana Grande, and more! 💿\n\nDJ set by @iamholander 🎧\n\nFollow us for more @thedanceparties 🥳\n\nPresented by Soda & What The Dance.\n\nThis is a 21+ event",
+        "ages": "all-ages",
+        "price": -1,
+        "genre": "",
+        "description": "",
         "soldOut": false
       },
       {
-        "url": "https://link.dice.fm/u6b8b3119257",
+        "url": "https://concerts.livenation.com/hairy-situation-a-new-comedy-show-san-diego-california-03-23-2025/event/0B00624BB2EF2069",
+        "date": 1742770800000,
+        "doorTime": "4:00 PM",
+        "showTime": "",
+        "endTime": "",
+        "header": "A New Comedy Show By ALOK (Early Show)",
+        "bands": [
+          "HAIRY SITUATION"
+        ],
+        "ages": "all-ages",
+        "price": -1,
+        "genre": "",
+        "description": "",
+        "soldOut": false
+      },
+      {
+        "url": "https://concerts.livenation.com/hairy-situation-a-new-comedy-show-san-diego-california-03-23-2025/event/0B00617A9A280D5A",
         "date": 1742781600000,
         "doorTime": "7:00 PM",
         "showTime": "",
         "endTime": "",
-        "header": "",
+        "header": "A New Comedy show by ALOK",
         "bands": [
-          "Duff Thompson",
-          "Steph Green",
-          "Sleepy Pearls"
+          "HAIRY SITUATION"
         ],
-        "ages": "21+",
-        "price": [
-          20,
-          24.21
-        ],
+        "ages": "all-ages",
+        "price": -1,
         "genre": "",
-        "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\nSteph Green's music is for those who fancy the art of songwriting, depicting a lonely world illuminated by strangeness and beauty. Her sound blends elements of folk, dream pop, and indie rock, and her lyrics reveal an affecting and arresting storyteller. A spirit of independence and experimentation characterize Green’s approach to music, with all of her releases featuring her in the roles of producer and multi-instrumentalist.\n\nGreen's haunting sophomore album, Lore, is a series of vignettes that immerse the listener in dreams and nightmares of the West. It's a world where the natural and supernatural collide, wailing spirits wander lost highways, and shapeshifting starling murmurations soar overhead of restless loners. Green produced and recorded Lore at home on a 16-track reel-to-reel, and the collection of tales are enveloped by a distinctive and otherworldly sound, with weeping steel guitar, washy organ, and ghostly vocal layering reverberating from a distant dimension. Out now, Lore is a rugged, eerie, and wild homage to both a real and imagined place.\n\n––\n\nDuff Thompson is a songwriter, musician, and producer whose music is a swampy blend of folk, pop, and garage rock. As a songwriter, he has a rare ability to distill emotional complexity into simple, sincere songs that instantly hit the listener on a visceral level. As a producer, he draws from influences that span across decades and genres, merging them into a cohesive and organic sound recognizable as his own. \n\nThompson's latest work is a dark, alienated, and swaggering duology of albums titled Shadow People and Shadow People II. Created over two weeks of intensive recording, the Shadow People series comprise 19 total tracks split across two albums. Whereas Thompson’s 2020 debut album, Haywire showcased his versatility and folk influences, Shadow People and Shadow People II are a more cohesive collection of songs that push his music further into the world of garage and indie rock.\n\nPresented by Soda.\n\nThis is a 21+ event",
+        "description": "",
         "soldOut": false
       },
       {
-        "url": "https://link.dice.fm/e71c7ce451d1",
-        "date": 1742869800000,
-        "doorTime": "7:30 PM",
+        "url": "https://concerts.livenation.com/lime-cordiale-enough-of-the-sweet-san-diego-california-03-25-2025/event/0B006175F6EC376E",
+        "date": 1742954400000,
+        "doorTime": "7:00 PM",
         "showTime": "",
         "endTime": "",
-        "header": "",
+        "header": "Enough Of The Sweet Talk Tour",
         "bands": [
-          "Poems",
-          "Greyflood",
-          "Tristan Brooks"
+          "Lime Cordiale"
         ],
-        "ages": "21+",
-        "price": [
-          10,
-          12.88
-        ],
+        "ages": "all-ages",
+        "price": -1,
         "genre": "",
-        "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\nPresented by Soda.\n\nThis is a 21+ event",
+        "description": "",
         "soldOut": false
       },
       {
-        "url": "https://link.dice.fm/Ld4a026c2af5",
-        "date": 1742956200000,
-        "doorTime": "7:30 PM",
-        "showTime": "",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "Rammor"
-        ],
-        "ages": "21+",
-        "price": [
-          15,
-          19.06
-        ],
-        "genre": "",
-        "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\nJoin us for the exciting debut Rammor in San Diego at soda Bar. Very limited discounted tickets are on sale now. Get yours before the price increases.\n\nRAMMOR (Spinnin', Lost Vibes, Warner) – Since releasing his first single in 2019, the Bavarian melodic house DJ and producer known for his nostalgic summer sound has explosively found his niche, earning more than 350 million streams and more than 1.2 million followers and fans on his networks. social.\n\nInitially limited to his live DJ sets on YouTube during the pandemic lockdown, which have now been streamed by millions of people, he now performs shows around the world, from Europe to North America, Asia and even Africa.  This is just the beginning for Rammor!\n\nPresented by Soda.\n\nThis is a 21+ event",
-        "soldOut": false
-      },
-      {
-        "url": "https://link.dice.fm/W25891b50b85",
-        "date": 1743042600000,
-        "doorTime": "7:30 PM",
-        "showTime": "",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "Pink Skies",
-          "Peach Cooler",
-          "Dylan Dunn"
-        ],
-        "ages": "21+",
-        "price": [
-          20,
-          24.21
-        ],
-        "genre": "",
-        "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\nThis is silly. My name is Arieh, I make music under the name Pink Skies. I’m from Oakland, CA, and grew up in the Bay Area up loving music and played in bands in the indie and punk scenes in the Bay. My band got banned from playing 924 Gilman because we weren’t punk enough. That’s whack lol. Too indie for the punk clubs and too punk for the indie clubs. We loved Red Hot Chili Peppers, Funkadelic, and The Clash.\n\nWe had to learn to record ourselves because no one else wanted to do it. We snuck into Guitar Center and abandoned offices and slept in them to record. We loved to skate, party, prank people, and smoke blunts listening to Mac Dre. Classic Bay shit. We lived in our van and toured around the country living off of peanut butter and water. Super fun rock band energy. We had a lot of fun!\n\nI’ve gotten to produce music with 6LACK, Khalid, Saint JHN, Glass Animals, and lots of awesome musicians.\n\nMy incredibly talented friends and I have toured as Pink Skies (some from the OG band!) and we have gotten to play with incredible artists like Cannons, The Knocks, Neil Frances, Goth Babe, Ritt Momney, Boy Pablo, Del Water Gap, Day Wave, TV Girl, and Tim Atlas. We’re really stoked to play more shows, so hopefully we will come to a city near you someday.\n\nPresented by Soda & Casbah.\n\nThis is a 21+ event",
-        "soldOut": false
-      },
-      {
-        "url": "https://link.dice.fm/xd2f6daddcc9",
-        "date": 1743129000000,
-        "doorTime": "7:30 PM",
-        "showTime": "",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "The Ivy",
-          "Lyncs",
-          "Winnabego"
-        ],
-        "ages": "21+",
-        "price": [
-          15,
-          19.06
-        ],
-        "genre": "",
-        "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\nPresented by Soda.\n\nThis is a 21+ event",
-        "soldOut": false
-      },
-      {
-        "url": "https://link.dice.fm/Ldca76eac558",
-        "date": 1743215400000,
-        "doorTime": "7:30 PM",
-        "showTime": "",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "Blockhead",
-          "Teebs"
-        ],
-        "ages": "21+",
-        "price": [
-          20,
-          24.21
-        ],
-        "genre": "",
-        "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\nThe internationally renowned NYC producer Tony Simon—aka Blockhead—has released 12 solo albums over the past 20 years, including four acclaimed records for Ninja Tune and numerous production jobs including notable works with Aesop Rock. He is regarded as one of the modern masters of instrumental hip-hop and has more recently been releasing music on other platforms such as Rhymesayers, Future Archive Recordings and Backwoodz Studios.\n\nPresented by Soda.\n\nThis is a 21+ event",
-        "soldOut": false
-      },
-      {
-        "url": "https://link.dice.fm/v25fd7b9dfce",
-        "date": 1743300000000,
+        "url": "https://concerts.livenation.com/tamino-san-diego-california-03-27-2025/event/0B00614BD84D3B09",
+        "date": 1743127200000,
         "doorTime": "7:00 PM",
         "showTime": "",
         "endTime": "",
         "header": "",
         "bands": [
-          "The Band Cope",
-          "Trestles",
-          "Sun Burnette",
-          "Fox Michaels"
+          "Tamino"
         ],
-        "ages": "21+",
-        "price": [
-          12,
-          15.97
-        ],
-        "genre": "Alt_rock / Indie",
-        "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\nThe Band Cope is a 4 piece indie/alternative band from San Diego, making music your mom needed during her divorce. Focusing on finding the light within the void, Ellie Marc Bill and Harry come together to create a musical experience for that happy-sad-everything feeling.\n\nRecording and touring frequently, the band members consider each other best friends. Having known each other for close to 10 years, and having tried a lot of different sounds, the band cope is a project founded on fun, experimentation, and friendship. Cuz if it’s not fun, wtf are you doing?\n\nPresented by Soda.\n\nThis is a 21+ event",
+        "ages": "all-ages",
+        "price": -1,
+        "genre": "",
+        "description": "",
         "soldOut": false
       },
       {
-        "url": "https://link.dice.fm/A68026480fbb",
+        "url": "https://concerts.livenation.com/kflay-san-diego-california-03-28-2025/event/0B006149BAA62714",
+        "date": 1743213600000,
+        "doorTime": "7:00 PM",
+        "showTime": "",
+        "endTime": "",
+        "header": "",
+        "bands": [
+          "K.Flay"
+        ],
+        "ages": "all-ages",
+        "price": -1,
+        "genre": "",
+        "description": "",
+        "soldOut": false
+      },
+      {
+        "url": "https://concerts.livenation.com/club-90s-presents-lady-gaga-night-san-diego-california-03-29-2025/event/0B006243BF171B2D",
+        "date": 1743305400000,
+        "doorTime": "8:30 PM",
+        "showTime": "",
+        "endTime": "",
+        "header": "",
+        "bands": [
+          "Club 90s Presents Lady Gaga Night"
+        ],
+        "ages": "18+",
+        "price": -1,
+        "genre": "",
+        "description": "",
+        "soldOut": false
+      },
+      {
+        "url": "https://concerts.livenation.com/kim-deal-san-diego-california-03-30-2025/event/0B00616DE773213A",
         "date": 1743386400000,
         "doorTime": "7:00 PM",
         "showTime": "",
         "endTime": "",
         "header": "",
         "bands": [
-          "The Folk Implosion",
-          "Rob Crow"
+          "Kim Deal"
         ],
-        "ages": "21+",
-        "price": [
-          30,
-          35.54
-        ],
+        "ages": "all-ages",
+        "price": -1,
         "genre": "",
-        "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\nFormed in 1993 by Lou Barlow (Sebadoh, Dinosaur Jr.) and John Davis as a songwriting and DIY recording project, The Folk Implosion released an album and a few singles on Communion before finding unexpected success in 1995 when they were commissioned to do the soundtrack to the film Kids. Their song “Natural One” became a hit single, reaching no. 29 on the Billboard Hot 100 and no. 4 on the Modern Rock Charts. They released one more album, Dare to be Surprised, on Communion before signing to Interscope Records. The band dissolved shortly after the release of their major label debut, 1999’s One Part Lullaby.\n\nThey surprised fans when they reunited in 2021 and self-released the Feel It If You Feel It EP in 2022. \n\n2024's Walk Thru Me is their first album of new music in 25 years. Separated from their homes in Massachusetts and North Carolina, Barlow and Davis collaborated remotely, flashing back to their early friendship as penpals. A sweaty bass and drums session went down in Barlow’s attic, before they booked studio time with producer Scott Solter (St. Vincent, Spoon, The Mountain Goats).  \n\n“Because we’re so separate, part of this album is me desperately trying to telepathically communicate to John and Scott, who are 700 miles away from me,” Barlow concludes. “A big part of what I consider to be the Folk Implosion is taking disparate things and turning them into pop.”\n\nPresented by Soda.\n\nThis is a 21+ event",
+        "description": "",
         "soldOut": false
       },
       {
-        "url": "https://link.dice.fm/F320c2e8dd45",
-        "date": 1743474600000,
-        "doorTime": "7:30 PM",
+        "url": "https://concerts.livenation.com/electric-feels-indie-rock-electronic-dance-san-diego-california-04-04-2025/event/0B006243D08C1E1F",
+        "date": 1743822000000,
+        "doorTime": "8:00 PM",
         "showTime": "",
         "endTime": "",
-        "header": "",
+        "header": "Indie Rock + Electronic Dance Party",
         "bands": [
-          "Casino Hearts",
-          "Pure Hex",
-          "Sparkler"
+          "Electric Feels"
         ],
-        "ages": "21+",
-        "price": [
-          18,
-          22.15
-        ],
+        "ages": "18+",
+        "price": -1,
         "genre": "",
-        "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\nBased in Los Angeles, Casino Hearts are Forrest Holter, Nick Minor, and Jacob Rubeck. Rubeck and Minor originally formed the band in Reno in 2013 releasing a number of albums and becoming a staple of the local music scene. When Rubeck moved to Los Angeles, the band went on an indefinite hiatus with hopes to someday make music together again. In 2021, Minor moved to Los Angeles and the two members recruited Holter who would add a pop and electronic sensibility to the band’s indie rock sound ushering the band into a new era. Influenced by the likes of My Bloody Valentine, Björk, Broadcast and Cocteau Twins, Casino Hearts debut EP, Lose Your Halo, is a sonic quilt of dream pop, distorted guitars and trance-like beats anchored by Holter’s ethereal gossamer voice. The band will release their second EP, ‘A Walk in The Grass’ in early March.  It’s safe to say Casino Hearts have found their final form.\n\nPresented by Soda.\n\nThis is a 21+ event",
+        "description": "",
         "soldOut": false
       },
       {
-        "url": "https://link.dice.fm/G42e1efb12f8",
-        "date": 1743561000000,
-        "doorTime": "7:30 PM",
-        "showTime": "",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "Sunbeam Sound Machine"
-        ],
-        "ages": "21+",
-        "price": [
-          20,
-          24.21
-        ],
-        "genre": "",
-        "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\nSunbeam Sound Machine is the project of producer and multi-instrumentalist Nick Sowersby. Emerging from Melbourne, Australia in 2013 with the lo-fi double-EP One/Sunbeam Sound Machine, the project quickly found a devoted audience worldwide.\n\n2014’s debut album Wonderer led to international touring and has established itself as a cult classic of the modern psychedelic pop era. Follow-up Goodness Gracious was nominated for the 2019 Australian Music Prize and led to further international touring, while the synth-heavy pop of 2022’s Possum saw the project reach new creative heights. The release of the Soft Signal EP in 2024 traded in the intricately layered sound of previous releases for ‘a stripped-back yet profoundly beautiful sonic experience’ (Happy Mag).\n\nSowersby’s trademark lush production, tip-toeing the line between euphoria and heartbreak, has garnered more than 70 million streams and established a dedicated global fanbase that continues to grow with each release.\n\nPresented by Soda.\n\nThis is a 21+ event",
-        "soldOut": false
-      },
-      {
-        "url": "https://link.dice.fm/kcaf69f71909",
-        "date": 1743645600000,
+        "url": "https://concerts.livenation.com/hairball-san-diego-california-04-06-2025/event/0B006243908B1261",
+        "date": 1743991200000,
         "doorTime": "7:00 PM",
         "showTime": "",
         "endTime": "",
         "header": "",
         "bands": [
-          "Free Throw: Those Days Are Gone 10 Year Anniversary Tour"
+          "Hairball"
         ],
-        "ages": "21+",
-        "price": [
-          30,
-          39.66
-        ],
-        "genre": "Poppunk",
-        "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\nPresented by Soda.\n\nThis is a 21+ event",
-        "soldOut": false
-      },
-      {
-        "url": "https://link.dice.fm/Q7ee9ad8aaa8",
-        "date": 1743733800000,
-        "doorTime": "7:30 PM",
-        "showTime": "",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "Weatherday",
-          "Fieldrush",
-          "Echinacea"
-        ],
-        "ages": "21+",
-        "price": [
-          20,
-          24.21
-        ],
-        "genre": "Noiserock / Lofi / Experimental / Alternative",
-        "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\nWeatherday is the noise-pop project of the mononymous Swedish artist Sputnik. While they have also found success with their side project, Lola's Pocket PC, it is their cult-acclaimed\n\nalbum Come in that has garnered them a large and dedicated following through its raucous musical universe and serpentine sparklepunk stylings. Often heralded as an achievement of lo-fi bedroom pop tangled with threads of emo and DIY, Come in is better described, in its author’s own words, as a “life goal.”\n\nThe initial spark that ignited the fiery, heated debut from Weatherday originated from Sputnik’s desire to write, perform, and produce a record all on their own, from the ground up. Starting in 2014-2015, their preliminary attempts at what would eventually become Come in first materialized as a shoegaze EP, and then a dream-pop meets chamber-pop LP. Ever the perfectionist though, Sputnik wasn’t satisfied with the results and deleted the releases without a trace, finally deciding to set out in the direction of something more akin to their longtime influences of emo and its various subgenres. After two years of tinkering in this stylistic sweetspot, Sputnik settled on the eleven knotted, maximal tracks that comprise Come in. From the caustic, harsh peaks of “Sleep in while you’re doing your best” to the soothing piano-laden passages of “Embarrassing paintings” and experimental, granular coda of “Water dreamer the same,” the range of Weatherday’s debut is doubtlessly a product of an artist who refuses to compromise a single shred of their vision.\n\nPresented by Soda.\n\nThis is a 21+ event",
-        "soldOut": false
-      },
-      {
-        "url": "https://link.dice.fm/c9468ea4045f",
-        "date": 1743820200000,
-        "doorTime": "7:30 PM",
-        "showTime": "",
-        "endTime": "",
-        "header": "",
-        "bands": [
-          "The Sloppy Boys"
-        ],
-        "ages": "21+",
-        "price": [
-          15,
-          19.06
-        ],
+        "ages": "all-ages",
+        "price": -1,
         "genre": "",
-        "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\nThe Sloppy Boys are a “party rock” band from LA consisting of comedians Mike Hanford, Jeff Dutton and Tim Kalpakis. Prior to forming The Sloppy Boys, all three were writer-performers on the sketch comedy show “The Birthday Boys,” produced by Bob Odenkirk, which aired on IFC.\n\nTogether, the Boys have self-released three albums, Lifelong Vacation, Dancing on the Wind, and Paradiso. Their fourth, Sonic Ranch, was produced by Money Mark (Beastie Boys, Beck) at the legendary Sonic Ranch Studios in Texas. The entire process was captured by director Robert Holguin for his feature-length comedy-rock-doc Blood, Sweat and Beers or How The Sloppy Boys Made an Album on a Farm in West Texas.\n\nThe Sloppy Boys also host a weekly cocktail-making podcast, ranked a Top 3 Comedy Podcast by Vulture. New episodes drop every Friday.\n\nPresented by Soda.\n\nThis is a 21+ event",
+        "description": "",
         "soldOut": false
       },
       {
-        "url": "https://link.dice.fm/Cbf87a1392d4",
-        "date": 1743906600000,
-        "doorTime": "7:30 PM",
+        "url": "https://concerts.livenation.com/machine-head-in-flames-with-special-san-diego-california-04-09-2025/event/0B006168FCB74149",
+        "date": 1744243200000,
+        "doorTime": "5:00 PM",
         "showTime": "",
         "endTime": "",
         "header": "",
         "bands": [
-          "Worn-Tin and Freak Nature Puppets",
-          "shindigs",
-          "Ian Curtis"
+          "Machine Head & In Flames with special guests Lacuna Coil and Unearth"
         ],
-        "ages": "21+",
-        "price": [
-          17,
-          21.12
-        ],
+        "ages": "all-ages",
+        "price": -1,
         "genre": "",
-        "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\n**WORN-TIN** – ‘Lo-fi lullaby maker Worn-Tin is just a boy who grew up skating in West LA with his imaginary friend Cool-son,’ as described by Citizine. Worn-Tin, AKA Warner (a friend drunkenly called him “Worn-Tin”) began writing and playing original music during his high school days in Santa Monica, California. He eventually built a backyard studio where he writes, records, and performs every element of his songs using only analog and outboard equipment, taking inspiration from a multitude of artists such as Modest Mouse, R. Stevie Moore and Jessie’s Candy and The Fit Bit.\n\nMuch like Worn-tin’s hyperactive mind, his sounds and lyrics are sprawling: his vocals range from the type of cadence and vulnerability that would make Dongo the ringworm smile, to distorted, psychedelic whaling and synths.\n\nThat same lucid unpredictability has become the staple for his live shows. At a Worn-Tin show, it’s not only about the music - you can expect a performance. from drinking his own urine to getting arrested on stage.\n\nWhen not feverishly writing new music, Worn-Tin can be found skating, gardening or crying in the attic.\n\n**Freak Nature Puppets** – is a collective of artists, performers, and puppeteers from Los Angeles. Their past collaborators and performance partners include Cherry Glazerr, Childish Gambino, Jack Black, and David Liebe Hart.\n\nPresented by Soda.\n\nThis is a 21+ event",
+        "description": "",
         "soldOut": false
       },
       {
-        "url": "https://link.dice.fm/Wdf987258825",
-        "date": 1743993000000,
-        "doorTime": "7:30 PM",
+        "url": "https://concerts.livenation.com/addon-hulvey-qa-not-a-concert-san-diego-california-04-10-2025/event/0B006134B410371E",
+        "date": 1744336800000,
+        "doorTime": "7:00 PM",
         "showTime": "",
         "endTime": "",
-        "header": "",
+        "header": "Hulvey Q&A",
         "bands": [
-          "Jason Joshua",
-          "The Emkays",
-          "City Soul Collective DJs"
+          "Add-On"
         ],
-        "ages": "21+",
-        "price": [
-          25,
-          29.87
-        ],
-        "genre": "Soul",
-        "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\nBorn and raised in Miami, Florida Jason Joshua , aka La Voz De Oro (The Golden Voice), is a multi instrumentalist, producer & vocalist rising to critical acclaim with his viral hit “La Vida Es Fría”. His Puerto Rican parents with roots in the North and South sides of Chicago, lend to Jason’s diverse and bilingual background and has influenced his soulful and unique musical style. He first broke out with his illustrious debut single “Rose Gold” which gained him a cult following with the lowrider community. Later to release the massively acclaimed debut album “Alegría Y Tristeza” in 2020. In 2021 he debuted singles “Language Of Love” “Se Acabó” “La Vida Es Fría” and “ Muéstrame” hinting a new album. 2023 marked the release of his sophomore follow up album “La Voz De Oro”, whether it’s his energetic live performances or his amazing music, Jason is paving his own lane with his style of Latin soul, r&b, salsa & rock while paying homage to legendary Black and Latino artists that came before him.\n\nIn his new single \"Prisoner Of My Mind \" Jason Joshua shares a heartfelt exploration of personal struggles and emotional reflection. The song combines relatable lyrics with his soulful voice, creating an authentic connection with listeners. \"Prisoner of My Mind\" captures the feeling of being trapped in one’s own thoughts, making it a relatable anthem for anyone dealing with inner challenges.\n\nPresented by Soda.\n\nThis is a 21+ event",
+        "ages": "all-ages",
+        "price": -1,
+        "genre": "",
+        "description": "",
         "soldOut": false
       },
       {
-        "url": "https://link.dice.fm/m56d54fc4d34",
-        "date": 1744077600000,
+        "url": "https://concerts.livenation.com/hulvey-all-for-you-tour-san-diego-california-04-10-2025/event/0B006133EF9D38B0",
+        "date": 1744336800000,
+        "doorTime": "7:00 PM",
+        "showTime": "",
+        "endTime": "",
+        "header": "\"All For You\" Tour",
+        "bands": [
+          "Hulvey"
+        ],
+        "ages": "all-ages",
+        "price": -1,
+        "genre": "",
+        "description": "",
+        "soldOut": false
+      },
+      {
+        "url": "https://concerts.livenation.com/michael-blaustein-the-taste-me-tour-san-diego-california-04-12-2025/event/0B00617AA42A1026",
+        "date": 1744506000000,
+        "doorTime": "6:00 PM",
+        "showTime": "",
+        "endTime": "",
+        "header": "The Taste Me Tour",
+        "bands": [
+          "Michael Blaustein"
+        ],
+        "ages": "all-ages",
+        "price": -1,
+        "genre": "",
+        "description": "",
+        "soldOut": false
+      },
+      {
+        "url": "https://concerts.livenation.com/michael-blaustein-the-taste-me-tour-san-diego-california-04-12-2025/event/0B00624C8C6B1771",
+        "date": 1744516800000,
+        "doorTime": "9:00 PM",
+        "showTime": "",
+        "endTime": "",
+        "header": "The Taste Me Tour",
+        "bands": [
+          "Michael Blaustein"
+        ],
+        "ages": "all-ages",
+        "price": -1,
+        "genre": "",
+        "description": "",
+        "soldOut": false
+      },
+      {
+        "url": "https://concerts.livenation.com/arch-enemy-north-american-blood-dynasty-san-diego-california-04-14-2025/event/0B00618DAF18173F",
+        "date": 1744682400000,
         "doorTime": "7:00 PM",
         "showTime": "",
         "endTime": "",
         "header": "",
         "bands": [
-          "True Loves"
+          "ARCH ENEMY NORTH AMERICAN BLOOD DYNASTY 2025 TOUR"
         ],
-        "ages": "21+",
-        "price": [
-          22,
-          26.78
-        ],
+        "ages": "all-ages",
+        "price": -1,
         "genre": "",
-        "description": "This is a 21+ event w/ valid ID at Soda Bar - San Diego.\n\nListening to the Seattle-based, original instrumental funk & soul group, True Loves, is like walking down a favorite neighborhood street, slapping five with your friends, checking up with clerks in their stores, and smelling the familiar scents of your most cherished locale. The band is its own block party. What began in 2014 as a jam session between three of the city’s best-drummer David McGraw, bassist Bryant Moore and guitarist Jimmy James- has since blossomed into a global force that features percussionist Iván Galvez, Trombonist Greg Kramer, and saxophonists Gordon Brown and Skerik. Together, the group’s live performances have garnered them much acclaim and millions of streams on YouTube. In 2017, the True Loves recorded their debut instrumental LP, Famous Last Words, which received worldwide adulation, earning them performances at coveted music festivals. In 2018, the group released the “Dapper Derp/Kabuki” 45’ on WeCoast Records followed by 2019’s Colemine Records “Famous Last Words/Mary Pop Poppins” 45 single. The band released their sophomore album “Sunday Afternoon” in 2021, on Color Red Music. 2024 saw the band release their latest single “Good Weed and Red Wine” followed by their second European tour.\n\nPresented by Soda.\n\nThis is a 21+ event",
+        "description": "",
+        "soldOut": false
+      },
+      {
+        "url": "https://concerts.livenation.com/isabel-larosa-psychopomp-tour-san-diego-california-04-18-2025/event/0B00624AD6DF20BB",
+        "date": 1745028000000,
+        "doorTime": "7:00 PM",
+        "showTime": "",
+        "endTime": "",
+        "header": "Psychopomp Tour",
+        "bands": [
+          "Isabel LaRosa"
+        ],
+        "ages": "all-ages",
+        "price": -1,
+        "genre": "",
+        "description": "",
+        "soldOut": false
+      },
+      {
+        "url": "https://concerts.livenation.com/memphis-may-fire-san-diego-california-04-23-2025/event/0B00616FE10039E6",
+        "date": 1745456400000,
+        "doorTime": "6:00 PM",
+        "showTime": "",
+        "endTime": "",
+        "header": "",
+        "bands": [
+          "Memphis May Fire"
+        ],
+        "ages": "all-ages",
+        "price": -1,
+        "genre": "",
+        "description": "",
+        "soldOut": false
+      },
+      {
+        "url": "https://concerts.livenation.com/larry-hernandez-san-diego-california-04-26-2025/event/0B006252DF952725",
+        "date": 1745719200000,
+        "doorTime": "7:00 PM",
+        "showTime": "",
+        "endTime": "",
+        "header": "",
+        "bands": [
+          "Larry Hernandez"
+        ],
+        "ages": "all-ages",
+        "price": -1,
+        "genre": "",
+        "description": "",
+        "soldOut": false
+      },
+      {
+        "url": "https://concerts.livenation.com/the-moss-san-diego-california-05-01-2025/event/0B00616D9E9C1009",
+        "date": 1746151200000,
+        "doorTime": "7:00 PM",
+        "showTime": "",
+        "endTime": "",
+        "header": "",
+        "bands": [
+          "The Moss"
+        ],
+        "ages": "all-ages",
+        "price": -1,
+        "genre": "",
+        "description": "",
+        "soldOut": false
+      },
+      {
+        "url": "https://concerts.livenation.com/between-the-buried-and-me-san-diego-california-05-08-2025/event/0B006231B3161500",
+        "date": 1746754200000,
+        "doorTime": "6:30 PM",
+        "showTime": "",
+        "endTime": "",
+        "header": "",
+        "bands": [
+          "Between The Buried And Me"
+        ],
+        "ages": "all-ages",
+        "price": -1,
+        "genre": "",
+        "description": "",
+        "soldOut": false
+      },
+      {
+        "url": "https://concerts.livenation.com/ferg-the-darold-tour-2025-san-diego-california-05-09-2025/event/0B00624AB1391B61",
+        "date": 1746842400000,
+        "doorTime": "7:00 PM",
+        "showTime": "",
+        "endTime": "",
+        "header": "The DAROLD Tour 2025",
+        "bands": [
+          "FERG"
+        ],
+        "ages": "all-ages",
+        "price": -1,
+        "genre": "",
+        "description": "",
+        "soldOut": false
+      },
+      {
+        "url": "https://concerts.livenation.com/jessica-kirson-san-diego-california-05-10-2025/event/0B00615C874A1163",
+        "date": 1746925200000,
+        "doorTime": "6:00 PM",
+        "showTime": "",
+        "endTime": "",
+        "header": "",
+        "bands": [
+          "Jessica Kirson"
+        ],
+        "ages": "all-ages",
+        "price": -1,
+        "genre": "",
+        "description": "",
+        "soldOut": false
+      },
+      {
+        "url": "https://concerts.livenation.com/flo-access-all-areas-north-american-san-diego-california-05-11-2025/event/0B00616CA3120D8F",
+        "date": 1747015200000,
+        "doorTime": "7:00 PM",
+        "showTime": "",
+        "endTime": "",
+        "header": "Access All Areas North American Tour 2025",
+        "bands": [
+          "FLO"
+        ],
+        "ages": "all-ages",
+        "price": -1,
+        "genre": "",
+        "description": "",
+        "soldOut": false
+      },
+      {
+        "url": "https://concerts.livenation.com/an-evening-with-they-might-be-san-diego-california-05-13-2025/event/0B006152ADBF224A",
+        "date": 1747188000000,
+        "doorTime": "7:00 PM",
+        "showTime": "",
+        "endTime": "",
+        "header": "They Might Be Giants - The Big Show Tour",
+        "bands": [
+          "An Evening With"
+        ],
+        "ages": "all-ages",
+        "price": -1,
+        "genre": "",
+        "description": "",
+        "soldOut": false
+      },
+      {
+        "url": "https://concerts.livenation.com/an-evening-with-they-might-be-san-diego-california-05-14-2025/event/0B006152AE23227D",
+        "date": 1747274400000,
+        "doorTime": "7:00 PM",
+        "showTime": "",
+        "endTime": "",
+        "header": "They Might Be Giants - The Big Show Tour",
+        "bands": [
+          "An Evening With"
+        ],
+        "ages": "all-ages",
+        "price": -1,
+        "genre": "",
+        "description": "",
+        "soldOut": false
+      },
+      {
+        "url": "https://concerts.livenation.com/two-nights-with-they-might-be-san-diego-california-05-14-2025/event/0B006153170347CB",
+        "date": 1747274400000,
+        "doorTime": "7:00 PM",
+        "showTime": "",
+        "endTime": "",
+        "header": "",
+        "bands": [
+          "TWO NIGHTS WITH THEY MIGHT BE GIANTS (2 Night Ticket) SOLD OUT"
+        ],
+        "ages": "all-ages",
+        "price": -1,
+        "genre": "",
+        "description": "",
+        "soldOut": false
+      },
+      {
+        "url": "https://concerts.livenation.com/solid-pink-disco-with-dj-trixie-san-diego-california-05-15-2025/event/0B00623FA4BF41E8",
+        "date": 1747360800000,
+        "doorTime": "7:00 PM",
+        "showTime": "",
+        "endTime": "",
+        "header": "",
+        "bands": [
+          "Solid Pink Disco With DJ Trixie"
+        ],
+        "ages": "18+",
+        "price": -1,
+        "genre": "",
+        "description": "",
+        "soldOut": false
+      },
+      {
+        "url": "https://concerts.livenation.com/the-menzingers-san-diego-california-05-16-2025/event/0B00617ABD2E13B9",
+        "date": 1747445400000,
+        "doorTime": "6:30 PM",
+        "showTime": "",
+        "endTime": "",
+        "header": "",
+        "bands": [
+          "The Menzingers"
+        ],
+        "ages": "all-ages",
+        "price": -1,
+        "genre": "",
+        "description": "",
+        "soldOut": false
+      },
+      {
+        "url": "https://concerts.livenation.com/gilsons-san-diego-california-05-18-2025/event/0B006254E7B33024",
+        "date": 1747620000000,
+        "doorTime": "7:00 PM",
+        "showTime": "",
+        "endTime": "",
+        "header": "",
+        "bands": [
+          "Gilsons"
+        ],
+        "ages": "all-ages",
+        "price": -1,
+        "genre": "",
+        "description": "",
+        "soldOut": false
+      },
+      {
+        "url": "https://concerts.livenation.com/bad-nerves-san-diego-california-05-20-2025/event/0B0062381BF552E9",
+        "date": 1747792800000,
+        "doorTime": "7:00 PM",
+        "showTime": "",
+        "endTime": "",
+        "header": "",
+        "bands": [
+          "Bad Nerves"
+        ],
+        "ages": "all-ages",
+        "price": -1,
+        "genre": "",
+        "description": "",
+        "soldOut": false
+      },
+      {
+        "url": "https://concerts.livenation.com/nazareth-bite-the-bullet-tour-san-diego-california-05-21-2025/event/0B00626BB4E41EB1",
+        "date": 1747879200000,
+        "doorTime": "7:00 PM",
+        "showTime": "",
+        "endTime": "",
+        "header": "",
+        "bands": [
+          "NAZARETH \"BITE THE BULLET\" TOUR"
+        ],
+        "ages": "all-ages",
+        "price": -1,
+        "genre": "",
+        "description": "",
+        "soldOut": false
+      },
+      {
+        "url": "https://concerts.livenation.com/the-damned-san-diego-california-05-24-2025/event/0B00616CACB71014",
+        "date": 1748138400000,
+        "doorTime": "7:00 PM",
+        "showTime": "",
+        "endTime": "",
+        "header": "",
+        "bands": [
+          "The Damned"
+        ],
+        "ages": "all-ages",
+        "price": -1,
+        "genre": "",
+        "description": "",
         "soldOut": false
       }
     ]
-  },
-  "The Observatory North Park": {
-    "date": "2025-03-15",
-    "shows": []
   }
 }
