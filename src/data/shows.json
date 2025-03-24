@@ -4705,5 +4705,177 @@
         "soldOut": false
       }
     ]
+  },
+  "Cal Coast Credit Union Open Air Theatre": {
+    "date": "2025-03-24",
+    "shows": [
+      {
+        "url": "https://www.ticketmaster.com/haash-haashville-tour-usa-canada-2024-san-diego-california-05-04-2025/event/0A0060D1F040415B",
+        "date": 1746414000000,
+        "doorTime": "",
+        "showTime": "8:00pm",
+        "endTime": "",
+        "header": "Ha*Ash - HAASHVILLE Tour USA + Canada 2024 2025",
+        "bands": [
+          "Ha*Ash"
+        ],
+        "ages": "all-ages",
+        "price": 39.5,
+        "genre": "",
+        "description": "Ha*Ash - HAASHVILLE Tour USA + Canada 2024 2025 | Sun 5/4 @ 8:00pm | Cal Coast Credit Union Open Air Theatre at SDSU, San Diego, CA"
+      },
+      {
+        "url": "https://www.ticketmaster.com/james-arthur-san-diego-california-05-30-2025/event/0A006246BCAC3423",
+        "date": 1748658600000,
+        "doorTime": "",
+        "showTime": "7:30pm",
+        "endTime": "",
+        "header": "James Arthur",
+        "bands": [
+          "James Arthur"
+        ],
+        "ages": "all-ages",
+        "price": 40,
+        "genre": "",
+        "description": "James Arthur | Fri 5/30 @ 7:30pm | Cal Coast Credit Union Open Air Theatre at SDSU, San Diego, CA"
+      },
+      {
+        "url": "https://www.ticketmaster.com/the-black-keys-no-rain-no-san-diego-california-06-04-2025/event/0A0062478F712B90",
+        "date": 1749092400000,
+        "doorTime": "",
+        "showTime": "8:00pm",
+        "endTime": "",
+        "header": "The Black Keys: No Rain, No Flowers",
+        "bands": [
+          "The Black Keys",
+          "The Heavy Heavy"
+        ],
+        "ages": "all-ages",
+        "price": 39.5,
+        "genre": "",
+        "description": "The Black Keys: No Rain, No Flowers | Wed 6/4 @ 8:00pm | Cal Coast Credit Union Open Air Theatre at SDSU, San Diego, CA"
+      },
+      {
+        "url": "https://www.ticketmaster.com/barenaked-ladies-last-summer-on-earth-san-diego-california-06-20-2025/event/0A00623BD06334AA",
+        "date": 1750471200000,
+        "doorTime": "",
+        "showTime": "7:00pm",
+        "endTime": "",
+        "header": "Barenaked Ladies: Last Summer On Earth Tour 2025",
+        "bands": [
+          "Barenaked Ladies",
+          "Guster",
+          "Fastball"
+        ],
+        "ages": "all-ages",
+        "price": 39,
+        "genre": "",
+        "description": "Barenaked Ladies: Last Summer On Earth Tour 2025 | Fri 6/20 @ 7:00pm | Cal Coast Credit Union Open Air Theatre at SDSU, San Diego, CA"
+      },
+      {
+        "url": "https://www.ticketmaster.com/90s-pop-tour-san-diego-california-06-22-2025/event/0A006255995D2E96",
+        "date": 1750645800000,
+        "doorTime": "",
+        "showTime": "7:30pm",
+        "endTime": "",
+        "header": "90’s Pop Tour",
+        "bands": [
+          "90’s Pop Tour",
+          "Magneto",
+          "Sentidos Opuestos",
+          "JNS",
+          "Kabah",
+          "Caló",
+          "Benny",
+          "MDO"
+        ],
+        "ages": "all-ages",
+        "price": 49,
+        "genre": "",
+        "description": "90’s Pop Tour | Sun 6/22 @ 7:30pm | Cal Coast Credit Union Open Air Theatre at SDSU, San Diego, CA"
+      },
+      {
+        "url": "https://www.ticketmaster.com/brit-floyd-and-alan-parsons-san-diego-california-07-12-2025/event/0A00616F1B56634A",
+        "date": 1752373800000,
+        "doorTime": "",
+        "showTime": "7:30pm",
+        "endTime": "",
+        "header": "Brit Floyd and Alan Parsons",
+        "bands": [
+          "Brit Floyd",
+          "The Alan Parsons Live Project"
+        ],
+        "ages": "all-ages",
+        "price": 25,
+        "genre": "",
+        "description": "Brit Floyd and Alan Parsons | Sat 7/12 @ 7:30pm | Cal Coast Credit Union Open Air Theatre at SDSU, San Diego, CA"
+      },
+      {
+        "url": "https://www.ticketmaster.com/father-john-misty-san-diego-california-07-23-2025/event/0A00624EA96B47A5",
+        "date": 1753322400000,
+        "doorTime": "",
+        "showTime": "7:00pm",
+        "endTime": "",
+        "header": "Father John Misty",
+        "bands": [
+          "Father John Misty",
+          "Lucinda Williams",
+          "Hamilton Leithauser"
+        ],
+        "ages": "all-ages",
+        "price": 35,
+        "genre": "",
+        "description": "Father John Misty | Wed 7/23 @ 7:00pm | Cal Coast Credit Union Open Air Theatre at SDSU, San Diego, CA"
+      },
+      {
+        "url": "https://www.ticketmaster.com/dispatch-w-john-butler-with-band-san-diego-california-07-24-2025/event/0A006230014C3C5A",
+        "date": 1753407000000,
+        "doorTime": "",
+        "showTime": "6:30pm",
+        "endTime": "",
+        "header": "DISPATCH W/ JOHN BUTLER (WITH BAND) - SUMMER TOUR 2025",
+        "bands": [
+          "Dispatch",
+          "John Butler",
+          "G. Love & Special Sauce",
+          "Donavon Frankenreiter"
+        ],
+        "ages": "all-ages",
+        "price": 33.5,
+        "genre": "",
+        "description": "DISPATCH W/ JOHN BUTLER (WITH BAND) - SUMMER TOUR 2025 | Thu 7/24 @ 6:30pm | Cal Coast Credit Union Open Air Theatre at SDSU, San Diego, CA"
+      },
+      {
+        "url": "https://www.ticketmaster.com/alabama-shakes-2025-tour-san-diego-california-08-10-2025/event/0A006244EDB52D9D",
+        "date": 1754881200000,
+        "doorTime": "",
+        "showTime": "8:00pm",
+        "endTime": "",
+        "header": "Alabama Shakes: 2025 Tour",
+        "bands": [
+          "Alabama Shakes",
+          "Shannon and the Clams"
+        ],
+        "ages": "all-ages",
+        "price": 50.5,
+        "genre": "",
+        "description": "Alabama Shakes: 2025 Tour | Sun 8/10 @ 8:00pm | Cal Coast Credit Union Open Air Theatre at SDSU, San Diego, CA"
+      },
+      {
+        "url": "https://www.ticketmaster.com/the-australian-pink-floyd-show-san-diego-california-08-17-2025/event/0A006230CDD930D5",
+        "date": 1755486000000,
+        "doorTime": "",
+        "showTime": "8:00pm",
+        "endTime": "",
+        "header": "The Australian Pink Floyd Show",
+        "bands": [
+          "The Australian Pink Floyd Show"
+        ],
+        "ages": "all-ages",
+        "price": 39,
+        "genre": "",
+        "description": "The Australian Pink Floyd Show | Sun 8/17 @ 8:00pm | Cal Coast Credit Union Open Air Theatre at SDSU, San Diego, CA"
+      }
+    ]
   }
 }

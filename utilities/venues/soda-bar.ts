@@ -49,10 +49,13 @@ async function fetchSchedule(): Promise<Show[]> {
     events.push({
       url: event.url ?? '',
       date: new Date(event.date ?? 0),
-      doorTime: new Date(event.date ?? 0).toLocaleTimeString(undefined, {
-        hour: 'numeric',
-        minute: '2-digit'
-      }),
+      doorTime: new Date(event.date ?? 0)
+        .toLocaleTimeString(undefined, {
+          hour: 'numeric',
+          minute: '2-digit'
+        })
+        .replaceAll(' ', '')
+        .toLocaleLowerCase(),
       showTime: '',
       endTime: '',
       header: '',
