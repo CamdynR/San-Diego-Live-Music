@@ -26,6 +26,13 @@ async function fetchSchedule(): Promise<Show[]> {
     }
   });
 
+  if (!response.ok) {
+    console.error(
+      `[Soda Bar] Error fetching calendar: HTTP ${response.status} - ${response.statusText}`
+    );
+    return events;
+  }
+
   let data;
   try {
     data = await response.json();
@@ -62,8 +69,8 @@ async function fetchSchedule(): Promise<Show[]> {
             return str[0].toUpperCase() + str.slice(1);
           })
           .join(' / ') ?? '',
-      description: event.description ?? '',
-      soldOut: event.sold_out ?? false
+      description: event.description?.replace(/\s+/g, ' ') ?? '',
+      soldOut: event.sold_out ?? undefined
     });
   });
 

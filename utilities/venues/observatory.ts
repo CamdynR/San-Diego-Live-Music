@@ -55,6 +55,14 @@ async function fetchSchedule(): Promise<Show[]> {
 
   // Grab the content from the web
   const response = await fetch(observatory.url);
+
+  if (!response.ok) {
+    console.error(
+      `[The Observatory North Park] Error fetching calendar: HTTP ${response.status} - ${response.statusText}`
+    );
+    return events;
+  }
+
   const data = await response.text();
   const dom = new JSDOM(data);
   const root = dom.window.document;
@@ -113,7 +121,7 @@ async function fetchSchedule(): Promise<Show[]> {
       price: -1,
       genre: '',
       description: '',
-      soldOut: false
+      soldOut: undefined
     });
   });
 

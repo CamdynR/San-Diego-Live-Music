@@ -1,9 +1,11 @@
 # San Diego Live Music
 
+A list of all of the completed web scrapers for the San Diego music venues
+
 ## Venue Checklist:
 
-- [] Belly Up
-- [] Brick by Brick
+- [x] Belly Up
+- [x] Brick by Brick
 - [] Cal Coast Credit Union Open Air Theatre
 - [x] The Casbah
 - [] Che Cafe
@@ -17,7 +19,7 @@
 - [] NOVA
 - [x] The Observatory North Park
 - [] Petco Park
-- [] Quartyard
+- [x] Quartyard
 - [] Rady Shell at Jacobs Park
 - [x] Soda Bar
 - [] SOMA

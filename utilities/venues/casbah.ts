@@ -19,6 +19,14 @@ async function fetchSchedule(): Promise<Show[]> {
   let events: Show[] = [];
 
   const response = await fetch(casbah.url);
+
+  if (!response.ok) {
+    console.error(
+      `[The Casbah] Error fetching calendar: HTTP ${response.status} - ${response.statusText}`
+    );
+    return events;
+  }
+
   const data = await response.text();
   const dom = new JSDOM(data);
   const root = dom.window.document;
@@ -79,7 +87,7 @@ async function fetchSchedule(): Promise<Show[]> {
         }
 
         // TODO: Check if the event is sold out
-        const soldOut = false;
+        const soldOut = undefined;
 
         // TODO: Get the event description
         const description = '';

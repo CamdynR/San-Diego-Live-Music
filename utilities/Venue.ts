@@ -1,7 +1,7 @@
 // venue.ts
 
 import jsdom from 'jsdom';
-// import { bellyUp } from './venues/belly-up.ts';
+import { bellyUp } from './venues/belly-up.ts';
 import { brickByBrick } from './venues/brick-by-brick.ts';
 // import { calCoast } from './venues/cal-coast.ts';
 import { casbah } from './venues/casbah.ts';
@@ -16,7 +16,7 @@ import { casbah } from './venues/casbah.ts';
 // import { nova } from './venues/nova.ts';
 import { observatory } from './venues/observatory.ts';
 // import { petcoPark } from './venues/petco-park.ts';
-// import { quartyard } from './venues/quartyard.ts';
+import { quartyard } from './venues/quartyard.ts';
 // import { radyShell } from './venues/rady-shell.ts';
 import { sodaBar } from './venues/soda-bar.ts';
 // import { soma } from './venues/soma.ts';
@@ -40,11 +40,11 @@ export type Show = {
   price: number | number[];
   genre: string;
   description: string;
-  soldOut: boolean;
+  soldOut: boolean | undefined;
 };
 
 export type VenueName =
-  // | 'Belly Up'
+  | 'Belly Up'
   | 'Brick by Brick'
   // | 'Cal Coast Credit Union Open Air Theatre'
   | 'The Casbah'
@@ -59,7 +59,7 @@ export type VenueName =
   // | 'NOVA'
   | 'The Observatory North Park'
   // | 'Petco Park'
-  // | 'Quartyard'
+  | 'Quartyard'
   // | 'Rady Shell at Jacobs Park'
   | 'Soda Bar';
 // | 'SOMA'
@@ -74,21 +74,28 @@ export interface Venue {
   address: string;
   url: string;
   ages: 'all-ages' | '18+' | '21+' | 'event dependent';
-  type: 'bar' | 'club' | 'amphitheater' | 'old theater' | 'hotel lounge';
+  type:
+    | 'bar'
+    | 'club'
+    | 'amphitheater'
+    | 'old theater'
+    | 'hotel lounge'
+    | 'event space'
+    | 'tavern';
   capacity: number;
   setting: 'indoors' | 'outdoors';
   alcohol: 'beer & wine' | 'full bar' | 'no alcohol';
   food:
     | 'no food'
     | 'bar snacks'
-    | 'full menu'
+    | 'full kitchen'
     | 'food truck'
     | 'attached restaurant';
   fetchSchedule(): Promise<Show[]>;
 }
 
 export const venueList: Venue[] = [
-  // bellyUp,
+  bellyUp,
   brickByBrick,
   // calCoast,
   casbah,
@@ -103,7 +110,7 @@ export const venueList: Venue[] = [
   // nova,
   observatory,
   // petcoPark,
-  // quartyard,
+  quartyard,
   // radyShell,
   sodaBar
   // soma,
